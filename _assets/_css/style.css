@@ -1,0 +1,152 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 99vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #BB2649;
+    font-family: 'Gill Sans MT', sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 10%;
+    margin: 10px;
+    border-radius: 20px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    overflow: hidden;
+}
+
+.checkbox {
+    width: 40px;
+    height: 40px;
+    opacity: 0;
+    z-index: 998;
+}
+
+.checkbox:checked ~ .menu {
+    width: 400px;
+    height: 40px;
+    background-color: #D4CACD;
+}
+
+.icon-search {
+    position: absolute;
+    left: 4px;
+    color: #000000;
+    z-index: 997;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.menu {
+    overflow: hidden;
+    width: 0;
+    margin: 10px;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+}
+.menu span {
+    margin: 0 0 0 20px;
+    font-size: 15px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.menu input {
+    margin: 0 0 0 20px;
+    background-color: transparent;
+    border: none;
+    font-weight: bolder;
+    color: #000000;
+    font-size: 15px;
+}
+
+.menu input:hover {
+    background-color: #BB2649;
+}
+
+.btnclose {
+    width: 30px;
+    height: 4px;
+    position: absolute;
+    left: 8px;
+    z-index: 997;
+    transition: 0.5s;
+}
+
+.checkbox:checked ~ .btnclose {
+    background-color: #f974a1;
+}
+
+.checkbox:checked ~ .icon-search {
+    display: none;
+}
+
+nav span:nth-child(3) {
+    transform: translateY(-8px);
+}
+.checkbox:checked ~ span:nth-child(3) {
+    transform: translateY(0) rotate(-45deg);
+}
+nav span:nth-child(4) {
+    transform: translateY(8px);
+}
+.checkbox:checked ~ span:nth-child(4) {
+    transform: translateY(0) rotate(45deg);
+}
+
+section {
+    position: relative;
+    height: 100vh;
+    width: 99%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    height: 600px;
+    margin: 10px;
+    border-radius: 40px;
+    background: #ba97386c;
+}
+
+h2, h3, legend, option {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+select, option {
+    margin: 10px;
+    width: 90%;
+    border: none;
+    color: #000000;
+    background-color: transparent;
+}
+
+hr {
+    width: 80%;
+}
