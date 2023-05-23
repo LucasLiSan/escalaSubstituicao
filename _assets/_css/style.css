@@ -31,7 +31,7 @@ nav {
 }
 
 .checkbox:checked ~ .menu {
-    width: 400px;
+    width: 450px;
     height: 40px;
     background-color: #D4CACD;
 }
@@ -54,10 +54,9 @@ nav {
     display: flex;
     align-items: center;
     border-radius: 30px;
+    justify-content: space-around;
 }
 .menu span {
-    margin: 0 0 0 20px;
-    font-size: 15px;
     font-weight: bolder;
     font-style: italic;
 }
@@ -72,6 +71,13 @@ nav {
 
 .menu input:hover {
     background-color: #BB2649;
+}
+
+.icon-ok {
+    margin: 0;
+    right: 3px;
+    position: relative;
+    font-size: 22px;
 }
 
 .btnclose {
@@ -104,8 +110,23 @@ nav span:nth-child(4) {
     transform: translateY(0) rotate(45deg);
 }
 
-.button {
-    
+.btn {
+    background-color: #BB2649;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: #ffff00;
+}
+
+.btn:active {
+    background-color: #00ff00;
 }
 
 section {
