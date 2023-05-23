@@ -220,3 +220,15 @@ select:hover, #qtdAlunos:hover, .infos:hover {
     font-weight: bolder;
     font-size: 17px;
 }
+
+@media (max-width: 680px) {
+    nav {
+        height: 2%;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+  }
