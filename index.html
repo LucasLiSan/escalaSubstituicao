@@ -7,6 +7,7 @@
             <link rel="stylesheet" href="_assets/_css/style.css">
             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+            
             <title>Substituição</title>
         </head>
         <body>
@@ -17,12 +18,12 @@
                 <span class="btnclose"></span>
                 <div class="menu">
                     <span> LOCALIZAR SEMANA:
-                        <input type="week">
+                        <input id="semana" type="week">
                     </span>
-                    <button class="btn"><span class="material-symbols-outlined icon-ok">check</span></button>
+                    <button class="btn" onclick="goToWeek"><span class="material-symbols-outlined icon-ok">check</span></button>
                 </div>
             </nav>
-            <section>
+            <section id="w18">
                 <div class="card">
                     <h2>DIA 01 DE MAIO</h2>
                     <h3>SEGUNDA-FEIRA</h3>
@@ -449,7 +450,7 @@
                     <hr>
                 </div>
             </section>
-            <section>
+            <section id="w19">
                 <div class="card">
                     <h2>DIA 08 DE MAIO</h2>
                     <h3>SEGUNDA-FEIRA</h3>
@@ -876,7 +877,7 @@
                     <hr>
                 </div>
             </section>
-            <section>
+            <section id="w20">
                 <div class="card">
                     <h2>DIA 15 DE MAIO</h2>
                     <h3>SEGUNDA-FEIRA</h3>
@@ -1303,7 +1304,7 @@
                     <hr>
                 </div>
             </section>
-            <section>
+            <section id="w21">
                 <div class="card">
                     <h2>DIA 22 DE MAIO</h2>
                     <h3>SEGUNDA-FEIRA</h3>
@@ -1730,7 +1731,7 @@
                     <hr>
                 </div>
             </section>
-            <section>
+            <section id="w22">
                 <div class="card">
                     <h2>DIA 29 DE MAIO</h2>
                     <h3>SEGUNDA-FEIRA</h3>
@@ -2157,5 +2158,6 @@
                     <hr>
                 </div>
             </section>
+            <script src="_assets/_js/script.js"></script>
         </body>
     </html>
