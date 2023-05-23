@@ -104,6 +104,10 @@ nav span:nth-child(4) {
     transform: translateY(0) rotate(45deg);
 }
 
+.button {
+    
+}
+
 section {
     position: relative;
     height: 100vh;
@@ -124,7 +128,8 @@ section {
     background: #ba97386c;
 }
 
-h2, h3, legend, option {
+h2, h3, legend,
+option, select {
     position: relative;
     text-align: center;
     color: #ffffff;
@@ -139,14 +144,49 @@ h3 {
     margin-top: 0;
 }
 
-select, option {
+select, option, #qtdAlunos {
     margin: 10px;
     width: 90%;
+    height: 30px;
+    border-radius: 30px;
     border: none;
-    color: #000000;
+}
+
+select, #qtdAlunos {
     background-color: transparent;
+}
+
+option {
+    color: #000000;
+    background-color: #ffffff;
 }
 
 hr {
     width: 80%;
+}
+
+select:hover, #qtdAlunos:hover {
+    background-color: #BB2649;
+}
+
+.row {
+    display: flex;
+}
+
+.col-1, .col-2 {
+    width: 50%;
+}
+
+.col-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#qtdAlunos {
+    width: 60%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 17px;
 }
