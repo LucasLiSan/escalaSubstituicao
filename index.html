@@ -7,7 +7,6 @@
             <link rel="stylesheet" href="_assets/_css/style.css">
             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-            
             <title>Substituição</title>
         </head>
         <body>
@@ -20,7 +19,7 @@
                     <span> LOCALIZAR SEMANA:
                         <input id="semana" type="week">
                     </span>
-                    <button class="btn" onclick="goToWeek"><span class="material-symbols-outlined icon-ok">check</span></button>
+                    <a id="search" class="btn" href="" onclick="goToWeek()"><span class="material-symbols-outlined icon-ok" onclick="goToWeek()">check</span></a>
                 </div>
             </nav>
             <section id="w18">
@@ -28,83 +27,25 @@
                     <h2>DIA 01 DE MAIO</h2>
                     <h3>SEGUNDA-FEIRA</h3>
                     <legend>U.E.:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="GUAVI">EMEB BAIRRO GUAVIRUVA</option>
-                        <option value="PA">EMEB BAIRRO PEDREIRA DO ARAPONGAL</option>
-                        <option value="AB">EMEB BRIG. DO AR ALBERTO BERTELLI</option>
-                        <option value="CO">EMEB CHRISTIANO DE OLIVEIRA</option>
-                        <option value="FM">EMEB FRANCISCO MANUEL</option>
-                        <option value="JP">EMEB JOÃO BATISTA POCI JÚNIOR</option>
-                        <option value="JSK">EMEB JOSÉ DA SILVA KALID</option>
-                        <option value="OG">EMEB OLERIANO GONÇALVES DE SOUZA</option>
-                        <option value="PG">EMEB PINGO DE GENTE</option>
-                        <option value="JC">EMEB PREF. JOSÉ DE CARVALHO</option>
-                        <option value="JS">EMEB PREF. JOSINO SILVEIRA</option>
-                        <option value="JM">EMEB PREF. PROFº JOSÉ MENDES</option>
-                        <option value="JK">EMEB PRES. JUSCELINO KUBITSCHEK DE OLIVEIRA</option>
-                        <option value="AP">EMEB PROFª ANNA PINTO BANKS</option>
-                        <option value="USINA">EMEB PROFª IDA EMÍLIA LEIB DAS NEVES</option>
-                        <option value="NH">EMEB PROFª NICEA HIROTA DA SILVA</option>
-                        <option value="OCR">EMEB PROFª OLGA CLIVATTI RODRIGUES</option>
-                        <option value="FS">EMEB PROFº FERNANDO SÉGIO DE CAMPOS MACHADO</option>
-                        <option value="KK">EMEB VER. KESAO KASUGA</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <legend>TURMA:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="1A">1º ANO - A</option>
-                        <option value="1B">1º ANO - B</option>
-                        <option value="1C">1º ANO - C</option>
-                        <option value="2A">2º ANO - A</option>
-                        <option value="2B">2º ANO - B</option>
-                        <option value="2C">2º ANO - C</option>
-                        <option value="3A">3º ANO - A</option>
-                        <option value="3B">3º ANO - B</option>
-                        <option value="3C">3º ANO - C</option>
-                        <option value="4A">4º ANO - A</option>
-                        <option value="4B">4º ANO - B</option>
-                        <option value="4C">4º ANO - C</option>
-                        <option value="5A">5º ANO - A</option>
-                        <option value="5B">5º ANO - B</option>
-                        <option value="5C">5º ANO - C</option>
-                        <option value="EJA">EJA</option>
-                        <option value="MULTI-A">MULTISSERIADA (1º AO 5º ANO) - A</option>
-                        <option value="MULTI-B12">MULTISSERIADA (1º E 2º ANO) - A</option>
-                        <option value="MULTI-B34">MULTISSERIADA (3º E 4º ANO) - B</option>
-                        <option value="MULTI-B45">MULTISSERIADA (4º E 5º ANO) - B</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <legend>TURNO:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="M">MANHÃ</option>
-                        <option value="T">TARDE</option>
-                        <option value="N">NOITE</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <legend>PROFESSOR:</legend>
-                    <select name="profs">
-                        <option value=""></option>
-                        <option value="P1">PROFESSOR 1</option>
-                        <option value="P2">PROFESSOR 2</option>
-                        <option value="P3">PROFESSOR 3</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <div class="row">
                         <div class="col-1">
                             <legend>T. FALTA:</legend>
-                            <select name="profs">
-                                <option value=""></option>
-                                <option value="P1">PROFESSOR 1</option>
-                                <option value="P2">PROFESSOR 2</option>
-                                <option value="P3">PROFESSOR 3</option>
-                            </select>
+                            <input type="text" name="ueNome" class="infos" value="" disabled>
                         </div>
                         <div class="col-2">
                             <legend>QTD ALUNOS:</legend>
-                            <input type="number" name="alunos" id="qtdAlunos">
+                            <input type="text" name="ueNome" id="qtdAlunos" value="" disabled>
                         </div>
                     </div>
                     <hr>
@@ -112,84 +53,26 @@
                 <div class="card">
                     <h2>DIA 02 DE MAIO</h2>
                     <h3>TERÇA-FEIRA</h3>
-                    <legend class="ueNome">U.E.:</legend>
-                    <select class="ueSelect" name="ue">
-                        <option value=""></option>
-                        <option value="GUAVI">EMEB BAIRRO GUAVIRUVA</option>
-                        <option value="PA">EMEB BAIRRO PEDREIRA DO ARAPONGAL</option>
-                        <option value="AB">EMEB BRIG. DO AR ALBERTO BERTELLI</option>
-                        <option value="CO">EMEB CHRISTIANO DE OLIVEIRA</option>
-                        <option value="FM">EMEB FRANCISCO MANUEL</option>
-                        <option value="JP">EMEB JOÃO BATISTA POCI JÚNIOR</option>
-                        <option value="JSK">EMEB JOSÉ DA SILVA KALID</option>
-                        <option value="OG">EMEB OLERIANO GONÇALVES DE SOUZA</option>
-                        <option value="PG">EMEB PINGO DE GENTE</option>
-                        <option value="JC">EMEB PREF. JOSÉ DE CARVALHO</option>
-                        <option value="JS">EMEB PREF. JOSINO SILVEIRA</option>
-                        <option value="JM">EMEB PREF. PROFº JOSÉ MENDES</option>
-                        <option value="JK">EMEB PRES. JUSCELINO KUBITSCHEK DE OLIVEIRA</option>
-                        <option value="AP">EMEB PROFª ANNA PINTO BANKS</option>
-                        <option value="USINA">EMEB PROFª IDA EMÍLIA LEIB DAS NEVES</option>
-                        <option value="NH">EMEB PROFª NICEA HIROTA DA SILVA</option>
-                        <option value="OCR">EMEB PROFª OLGA CLIVATTI RODRIGUES</option>
-                        <option value="FS">EMEB PROFº FERNANDO SÉGIO DE CAMPOS MACHADO</option>
-                        <option value="KK">EMEB VER. KESAO KASUGA</option>
-                    </select>
+                    <legend>U.E.:</legend>
+                    <input type="text" name="ueNome" class="infos" value="EMEB JOÃO B. POCI JR" disabled>
                     <hr>
                     <legend>TURMA:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="1A">1º ANO - A</option>
-                        <option value="1B">1º ANO - B</option>
-                        <option value="1C">1º ANO - C</option>
-                        <option value="2A">2º ANO - A</option>
-                        <option value="2B">2º ANO - B</option>
-                        <option value="2C">2º ANO - C</option>
-                        <option value="3A">3º ANO - A</option>
-                        <option value="3B">3º ANO - B</option>
-                        <option value="3C">3º ANO - C</option>
-                        <option value="4A">4º ANO - A</option>
-                        <option value="4B">4º ANO - B</option>
-                        <option value="4C">4º ANO - C</option>
-                        <option value="5A">5º ANO - A</option>
-                        <option value="5B">5º ANO - B</option>
-                        <option value="5C">5º ANO - C</option>
-                        <option value="EJA">EJA</option>
-                        <option value="MULTI-A">MULTISSERIADA (1º AO 5º ANO) - A</option>
-                        <option value="MULTI-B12">MULTISSERIADA (1º E 2º ANO) - A</option>
-                        <option value="MULTI-B34">MULTISSERIADA (3º E 4º ANO) - B</option>
-                        <option value="MULTI-B45">MULTISSERIADA (4º E 5º ANO) - B</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="4º ANO - A" disabled>
                     <hr>
                     <legend>TURNO:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="M">MANHÃ</option>
-                        <option value="T">TARDE</option>
-                        <option value="N">NOITE</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="TARDE" disabled>
                     <hr>
                     <legend>PROFESSOR:</legend>
-                    <select name="profs">
-                        <option value=""></option>
-                        <option value="P1">PROFESSOR 1</option>
-                        <option value="P2">PROFESSOR 2</option>
-                        <option value="P3">PROFESSOR 3</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="VILMA LEITE PONCIANO" disabled>
                     <hr>
                     <div class="row">
                         <div class="col-1">
                             <legend>T. FALTA:</legend>
-                            <select name="profs">
-                                <option value=""></option>
-                                <option value="P1">PROFESSOR 1</option>
-                                <option value="P2">PROFESSOR 2</option>
-                                <option value="P3">PROFESSOR 3</option>
-                            </select>
+                            <input type="text" name="ueNome" class="infos" value="FA" disabled>
                         </div>
                         <div class="col-2">
                             <legend>QTD ALUNOS:</legend>
-                            <input type="number" name="alunos" id="qtdAlunos">
+                            <input type="text" name="ueNome" id="qtdAlunos" value="17" disabled>
                         </div>
                     </div>
                     <hr>
@@ -197,84 +80,26 @@
                 <div class="card">
                     <h2>DIA 03 DE MAIO</h2>
                     <h3>QUARTA-FEIRA</h3>
-                    <legend class="ueNome">U.E.:</legend>
-                    <select class="ueSelect" name="ue">
-                        <option value=""></option>
-                        <option value="GUAVI">EMEB BAIRRO GUAVIRUVA</option>
-                        <option value="PA">EMEB BAIRRO PEDREIRA DO ARAPONGAL</option>
-                        <option value="AB">EMEB BRIG. DO AR ALBERTO BERTELLI</option>
-                        <option value="CO">EMEB CHRISTIANO DE OLIVEIRA</option>
-                        <option value="FM">EMEB FRANCISCO MANUEL</option>
-                        <option value="JP">EMEB JOÃO BATISTA POCI JÚNIOR</option>
-                        <option value="JSK">EMEB JOSÉ DA SILVA KALID</option>
-                        <option value="OG">EMEB OLERIANO GONÇALVES DE SOUZA</option>
-                        <option value="PG">EMEB PINGO DE GENTE</option>
-                        <option value="JC">EMEB PREF. JOSÉ DE CARVALHO</option>
-                        <option value="JS">EMEB PREF. JOSINO SILVEIRA</option>
-                        <option value="JM">EMEB PREF. PROFº JOSÉ MENDES</option>
-                        <option value="JK">EMEB PRES. JUSCELINO KUBITSCHEK DE OLIVEIRA</option>
-                        <option value="AP">EMEB PROFª ANNA PINTO BANKS</option>
-                        <option value="USINA">EMEB PROFª IDA EMÍLIA LEIB DAS NEVES</option>
-                        <option value="NH">EMEB PROFª NICEA HIROTA DA SILVA</option>
-                        <option value="OCR">EMEB PROFª OLGA CLIVATTI RODRIGUES</option>
-                        <option value="FS">EMEB PROFº FERNANDO SÉGIO DE CAMPOS MACHADO</option>
-                        <option value="KK">EMEB VER. KESAO KASUGA</option>
-                    </select>
+                    <legend>U.E.:</legend>
+                    <input type="text" name="ueNome" class="infos" value="EMEB VER. KESAO KASUGA" disabled>
                     <hr>
                     <legend>TURMA:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="1A">1º ANO - A</option>
-                        <option value="1B">1º ANO - B</option>
-                        <option value="1C">1º ANO - C</option>
-                        <option value="2A">2º ANO - A</option>
-                        <option value="2B">2º ANO - B</option>
-                        <option value="2C">2º ANO - C</option>
-                        <option value="3A">3º ANO - A</option>
-                        <option value="3B">3º ANO - B</option>
-                        <option value="3C">3º ANO - C</option>
-                        <option value="4A">4º ANO - A</option>
-                        <option value="4B">4º ANO - B</option>
-                        <option value="4C">4º ANO - C</option>
-                        <option value="5A">5º ANO - A</option>
-                        <option value="5B">5º ANO - B</option>
-                        <option value="5C">5º ANO - C</option>
-                        <option value="EJA">EJA</option>
-                        <option value="MULTI-A">MULTISSERIADA (1º AO 5º ANO) - A</option>
-                        <option value="MULTI-B12">MULTISSERIADA (1º E 2º ANO) - A</option>
-                        <option value="MULTI-B34">MULTISSERIADA (3º E 4º ANO) - B</option>
-                        <option value="MULTI-B45">MULTISSERIADA (4º E 5º ANO) - B</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="4º ANO - A" disabled>
                     <hr>
                     <legend>TURNO:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="M">MANHÃ</option>
-                        <option value="T">TARDE</option>
-                        <option value="N">NOITE</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="MANHÃ" disabled>
                     <hr>
                     <legend>PROFESSOR:</legend>
-                    <select name="profs">
-                        <option value=""></option>
-                        <option value="P1">PROFESSOR 1</option>
-                        <option value="P2">PROFESSOR 2</option>
-                        <option value="P3">PROFESSOR 3</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="EVA FRANCISCA S. FERREIRA" disabled>
                     <hr>
                     <div class="row">
                         <div class="col-1">
                             <legend>T. FALTA:</legend>
-                            <select name="profs">
-                                <option value=""></option>
-                                <option value="P1">PROFESSOR 1</option>
-                                <option value="P2">PROFESSOR 2</option>
-                                <option value="P3">PROFESSOR 3</option>
-                            </select>
+                            <input type="text" name="ueNome" class="infos" value="FA" disabled>
                         </div>
                         <div class="col-2">
                             <legend>QTD ALUNOS:</legend>
-                            <input type="number" name="alunos" id="qtdAlunos">
+                            <input type="text" name="ueNome" id="qtdAlunos" value="18" disabled>
                         </div>
                     </div>
                     <hr>
@@ -282,84 +107,26 @@
                 <div class="card">
                     <h2>DIA 04 DE MAIO</h2>
                     <h3>QUINTA-FEIRA</h3>
-                    <legend class="ueNome">U.E.:</legend>
-                    <select class="ueSelect" name="ue">
-                        <option value=""></option>
-                        <option value="GUAVI">EMEB BAIRRO GUAVIRUVA</option>
-                        <option value="PA">EMEB BAIRRO PEDREIRA DO ARAPONGAL</option>
-                        <option value="AB">EMEB BRIG. DO AR ALBERTO BERTELLI</option>
-                        <option value="CO">EMEB CHRISTIANO DE OLIVEIRA</option>
-                        <option value="FM">EMEB FRANCISCO MANUEL</option>
-                        <option value="JP">EMEB JOÃO BATISTA POCI JÚNIOR</option>
-                        <option value="JSK">EMEB JOSÉ DA SILVA KALID</option>
-                        <option value="OG">EMEB OLERIANO GONÇALVES DE SOUZA</option>
-                        <option value="PG">EMEB PINGO DE GENTE</option>
-                        <option value="JC">EMEB PREF. JOSÉ DE CARVALHO</option>
-                        <option value="JS">EMEB PREF. JOSINO SILVEIRA</option>
-                        <option value="JM">EMEB PREF. PROFº JOSÉ MENDES</option>
-                        <option value="JK">EMEB PRES. JUSCELINO KUBITSCHEK DE OLIVEIRA</option>
-                        <option value="AP">EMEB PROFª ANNA PINTO BANKS</option>
-                        <option value="USINA">EMEB PROFª IDA EMÍLIA LEIB DAS NEVES</option>
-                        <option value="NH">EMEB PROFª NICEA HIROTA DA SILVA</option>
-                        <option value="OCR">EMEB PROFª OLGA CLIVATTI RODRIGUES</option>
-                        <option value="FS">EMEB PROFº FERNANDO SÉGIO DE CAMPOS MACHADO</option>
-                        <option value="KK">EMEB VER. KESAO KASUGA</option>
-                    </select>
+                    <legend>U.E.:</legend>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <legend>TURMA:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="1A">1º ANO - A</option>
-                        <option value="1B">1º ANO - B</option>
-                        <option value="1C">1º ANO - C</option>
-                        <option value="2A">2º ANO - A</option>
-                        <option value="2B">2º ANO - B</option>
-                        <option value="2C">2º ANO - C</option>
-                        <option value="3A">3º ANO - A</option>
-                        <option value="3B">3º ANO - B</option>
-                        <option value="3C">3º ANO - C</option>
-                        <option value="4A">4º ANO - A</option>
-                        <option value="4B">4º ANO - B</option>
-                        <option value="4C">4º ANO - C</option>
-                        <option value="5A">5º ANO - A</option>
-                        <option value="5B">5º ANO - B</option>
-                        <option value="5C">5º ANO - C</option>
-                        <option value="EJA">EJA</option>
-                        <option value="MULTI-A">MULTISSERIADA (1º AO 5º ANO) - A</option>
-                        <option value="MULTI-B12">MULTISSERIADA (1º E 2º ANO) - A</option>
-                        <option value="MULTI-B34">MULTISSERIADA (3º E 4º ANO) - B</option>
-                        <option value="MULTI-B45">MULTISSERIADA (4º E 5º ANO) - B</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <legend>TURNO:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="M">MANHÃ</option>
-                        <option value="T">TARDE</option>
-                        <option value="N">NOITE</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <legend>PROFESSOR:</legend>
-                    <select name="profs">
-                        <option value=""></option>
-                        <option value="P1">PROFESSOR 1</option>
-                        <option value="P2">PROFESSOR 2</option>
-                        <option value="P3">PROFESSOR 3</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <div class="row">
                         <div class="col-1">
                             <legend>T. FALTA:</legend>
-                            <select name="profs">
-                                <option value=""></option>
-                                <option value="P1">PROFESSOR 1</option>
-                                <option value="P2">PROFESSOR 2</option>
-                                <option value="P3">PROFESSOR 3</option>
-                            </select>
+                            <input type="text" name="ueNome" class="infos" value="" disabled>
                         </div>
                         <div class="col-2">
                             <legend>QTD ALUNOS:</legend>
-                            <input type="number" name="alunos" id="qtdAlunos">
+                            <input type="text" name="ueNome" id="qtdAlunos" value="" disabled>
                         </div>
                     </div>
                     <hr>
@@ -367,84 +134,26 @@
                 <div class="card">
                     <h2>DIA 05 DE MAIO</h2>
                     <h3>SEXTA-FEIRA</h3>
-                    <legend class="ueNome">U.E.:</legend>
-                    <select class="ueSelect" name="ue">
-                        <option value=""></option>
-                        <option value="GUAVI">EMEB BAIRRO GUAVIRUVA</option>
-                        <option value="PA">EMEB BAIRRO PEDREIRA DO ARAPONGAL</option>
-                        <option value="AB">EMEB BRIG. DO AR ALBERTO BERTELLI</option>
-                        <option value="CO">EMEB CHRISTIANO DE OLIVEIRA</option>
-                        <option value="FM">EMEB FRANCISCO MANUEL</option>
-                        <option value="JP">EMEB JOÃO BATISTA POCI JÚNIOR</option>
-                        <option value="JSK">EMEB JOSÉ DA SILVA KALID</option>
-                        <option value="OG">EMEB OLERIANO GONÇALVES DE SOUZA</option>
-                        <option value="PG">EMEB PINGO DE GENTE</option>
-                        <option value="JC">EMEB PREF. JOSÉ DE CARVALHO</option>
-                        <option value="JS">EMEB PREF. JOSINO SILVEIRA</option>
-                        <option value="JM">EMEB PREF. PROFº JOSÉ MENDES</option>
-                        <option value="JK">EMEB PRES. JUSCELINO KUBITSCHEK DE OLIVEIRA</option>
-                        <option value="AP">EMEB PROFª ANNA PINTO BANKS</option>
-                        <option value="USINA">EMEB PROFª IDA EMÍLIA LEIB DAS NEVES</option>
-                        <option value="NH">EMEB PROFª NICEA HIROTA DA SILVA</option>
-                        <option value="OCR">EMEB PROFª OLGA CLIVATTI RODRIGUES</option>
-                        <option value="FS">EMEB PROFº FERNANDO SÉGIO DE CAMPOS MACHADO</option>
-                        <option value="KK">EMEB VER. KESAO KASUGA</option>
-                    </select>
+                    <legend>U.E.:</legend>
+                    <input type="text" name="ueNome" class="infos" value="EMEB PREF. JOSÉ DE CARVALHO" disabled style="font-size: 15px;">
                     <hr>
                     <legend>TURMA:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="1A">1º ANO - A</option>
-                        <option value="1B">1º ANO - B</option>
-                        <option value="1C">1º ANO - C</option>
-                        <option value="2A">2º ANO - A</option>
-                        <option value="2B">2º ANO - B</option>
-                        <option value="2C">2º ANO - C</option>
-                        <option value="3A">3º ANO - A</option>
-                        <option value="3B">3º ANO - B</option>
-                        <option value="3C">3º ANO - C</option>
-                        <option value="4A">4º ANO - A</option>
-                        <option value="4B">4º ANO - B</option>
-                        <option value="4C">4º ANO - C</option>
-                        <option value="5A">5º ANO - A</option>
-                        <option value="5B">5º ANO - B</option>
-                        <option value="5C">5º ANO - C</option>
-                        <option value="EJA">EJA</option>
-                        <option value="MULTI-A">MULTISSERIADA (1º AO 5º ANO) - A</option>
-                        <option value="MULTI-B12">MULTISSERIADA (1º E 2º ANO) - A</option>
-                        <option value="MULTI-B34">MULTISSERIADA (3º E 4º ANO) - B</option>
-                        <option value="MULTI-B45">MULTISSERIADA (4º E 5º ANO) - B</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="4º ANO - B" disabled>
                     <hr>
                     <legend>TURNO:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="M">MANHÃ</option>
-                        <option value="T">TARDE</option>
-                        <option value="N">NOITE</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="TARDE" disabled>
                     <hr>
                     <legend>PROFESSOR:</legend>
-                    <select name="profs">
-                        <option value=""></option>
-                        <option value="P1">PROFESSOR 1</option>
-                        <option value="P2">PROFESSOR 2</option>
-                        <option value="P3">PROFESSOR 3</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="JESSIKA EMANUELLY S. SALUSTIANA" disabled style="font-size: 13px;">
                     <hr>
                     <div class="row">
                         <div class="col-1">
                             <legend>T. FALTA:</legend>
-                            <select name="profs">
-                                <option value=""></option>
-                                <option value="P1">PROFESSOR 1</option>
-                                <option value="P2">PROFESSOR 2</option>
-                                <option value="P3">PROFESSOR 3</option>
-                            </select>
+                            <input type="text" name="ueNome" class="infos" value="FA" disabled>
                         </div>
                         <div class="col-2">
                             <legend>QTD ALUNOS:</legend>
-                            <input type="number" name="alunos" id="qtdAlunos">
+                            <input type="text" name="ueNome" id="qtdAlunos" value="23" disabled>
                         </div>
                     </div>
                     <hr>
@@ -455,83 +164,25 @@
                     <h2>DIA 08 DE MAIO</h2>
                     <h3>SEGUNDA-FEIRA</h3>
                     <legend>U.E.:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="GUAVI">EMEB BAIRRO GUAVIRUVA</option>
-                        <option value="PA">EMEB BAIRRO PEDREIRA DO ARAPONGAL</option>
-                        <option value="AB">EMEB BRIG. DO AR ALBERTO BERTELLI</option>
-                        <option value="CO">EMEB CHRISTIANO DE OLIVEIRA</option>
-                        <option value="FM">EMEB FRANCISCO MANUEL</option>
-                        <option value="JP">EMEB JOÃO BATISTA POCI JÚNIOR</option>
-                        <option value="JSK">EMEB JOSÉ DA SILVA KALID</option>
-                        <option value="OG">EMEB OLERIANO GONÇALVES DE SOUZA</option>
-                        <option value="PG">EMEB PINGO DE GENTE</option>
-                        <option value="JC">EMEB PREF. JOSÉ DE CARVALHO</option>
-                        <option value="JS">EMEB PREF. JOSINO SILVEIRA</option>
-                        <option value="JM">EMEB PREF. PROFº JOSÉ MENDES</option>
-                        <option value="JK">EMEB PRES. JUSCELINO KUBITSCHEK DE OLIVEIRA</option>
-                        <option value="AP">EMEB PROFª ANNA PINTO BANKS</option>
-                        <option value="USINA">EMEB PROFª IDA EMÍLIA LEIB DAS NEVES</option>
-                        <option value="NH">EMEB PROFª NICEA HIROTA DA SILVA</option>
-                        <option value="OCR">EMEB PROFª OLGA CLIVATTI RODRIGUES</option>
-                        <option value="FS">EMEB PROFº FERNANDO SÉGIO DE CAMPOS MACHADO</option>
-                        <option value="KK">EMEB VER. KESAO KASUGA</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="EMEB PREF. JOSINO SILVEIRA" disabled>
                     <hr>
                     <legend>TURMA:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="1A">1º ANO - A</option>
-                        <option value="1B">1º ANO - B</option>
-                        <option value="1C">1º ANO - C</option>
-                        <option value="2A">2º ANO - A</option>
-                        <option value="2B">2º ANO - B</option>
-                        <option value="2C">2º ANO - C</option>
-                        <option value="3A">3º ANO - A</option>
-                        <option value="3B">3º ANO - B</option>
-                        <option value="3C">3º ANO - C</option>
-                        <option value="4A">4º ANO - A</option>
-                        <option value="4B">4º ANO - B</option>
-                        <option value="4C">4º ANO - C</option>
-                        <option value="5A">5º ANO - A</option>
-                        <option value="5B">5º ANO - B</option>
-                        <option value="5C">5º ANO - C</option>
-                        <option value="EJA">EJA</option>
-                        <option value="MULTI-A">MULTISSERIADA (1º AO 5º ANO) - A</option>
-                        <option value="MULTI-B12">MULTISSERIADA (1º E 2º ANO) - A</option>
-                        <option value="MULTI-B34">MULTISSERIADA (3º E 4º ANO) - B</option>
-                        <option value="MULTI-B45">MULTISSERIADA (4º E 5º ANO) - B</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="5º ANO - C" disabled>
                     <hr>
                     <legend>TURNO:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="M">MANHÃ</option>
-                        <option value="T">TARDE</option>
-                        <option value="N">NOITE</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="MANHÃ" disabled>
                     <hr>
                     <legend>PROFESSOR:</legend>
-                    <select name="profs">
-                        <option value=""></option>
-                        <option value="P1">PROFESSOR 1</option>
-                        <option value="P2">PROFESSOR 2</option>
-                        <option value="P3">PROFESSOR 3</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="SHEILA REGINA DE PONTES" disabled>
                     <hr>
                     <div class="row">
                         <div class="col-1">
                             <legend>T. FALTA:</legend>
-                            <select name="profs">
-                                <option value=""></option>
-                                <option value="P1">PROFESSOR 1</option>
-                                <option value="P2">PROFESSOR 2</option>
-                                <option value="P3">PROFESSOR 3</option>
-                            </select>
+                            <input type="text" name="ueNome" class="infos" value="FSO" disabled>
                         </div>
                         <div class="col-2">
                             <legend>QTD ALUNOS:</legend>
-                            <input type="number" name="alunos" id="qtdAlunos">
+                            <input type="text" name="ueNome" id="qtdAlunos" value="27" disabled>
                         </div>
                     </div>
                     <hr>
@@ -539,84 +190,26 @@
                 <div class="card">
                     <h2>DIA 09 DE MAIO</h2>
                     <h3>TERÇA-FEIRA</h3>
-                    <legend class="ueNome">U.E.:</legend>
-                    <select class="ueSelect" name="ue">
-                        <option value=""></option>
-                        <option value="GUAVI">EMEB BAIRRO GUAVIRUVA</option>
-                        <option value="PA">EMEB BAIRRO PEDREIRA DO ARAPONGAL</option>
-                        <option value="AB">EMEB BRIG. DO AR ALBERTO BERTELLI</option>
-                        <option value="CO">EMEB CHRISTIANO DE OLIVEIRA</option>
-                        <option value="FM">EMEB FRANCISCO MANUEL</option>
-                        <option value="JP">EMEB JOÃO BATISTA POCI JÚNIOR</option>
-                        <option value="JSK">EMEB JOSÉ DA SILVA KALID</option>
-                        <option value="OG">EMEB OLERIANO GONÇALVES DE SOUZA</option>
-                        <option value="PG">EMEB PINGO DE GENTE</option>
-                        <option value="JC">EMEB PREF. JOSÉ DE CARVALHO</option>
-                        <option value="JS">EMEB PREF. JOSINO SILVEIRA</option>
-                        <option value="JM">EMEB PREF. PROFº JOSÉ MENDES</option>
-                        <option value="JK">EMEB PRES. JUSCELINO KUBITSCHEK DE OLIVEIRA</option>
-                        <option value="AP">EMEB PROFª ANNA PINTO BANKS</option>
-                        <option value="USINA">EMEB PROFª IDA EMÍLIA LEIB DAS NEVES</option>
-                        <option value="NH">EMEB PROFª NICEA HIROTA DA SILVA</option>
-                        <option value="OCR">EMEB PROFª OLGA CLIVATTI RODRIGUES</option>
-                        <option value="FS">EMEB PROFº FERNANDO SÉGIO DE CAMPOS MACHADO</option>
-                        <option value="KK">EMEB VER. KESAO KASUGA</option>
-                    </select>
+                    <legend>U.E.:</legend>
+                    <input type="text" name="ueNome" class="infos" value="EMEB PEDREIRA DO ARAPONGAL" disabled style="font-size: 15px;">
                     <hr>
                     <legend>TURMA:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="1A">1º ANO - A</option>
-                        <option value="1B">1º ANO - B</option>
-                        <option value="1C">1º ANO - C</option>
-                        <option value="2A">2º ANO - A</option>
-                        <option value="2B">2º ANO - B</option>
-                        <option value="2C">2º ANO - C</option>
-                        <option value="3A">3º ANO - A</option>
-                        <option value="3B">3º ANO - B</option>
-                        <option value="3C">3º ANO - C</option>
-                        <option value="4A">4º ANO - A</option>
-                        <option value="4B">4º ANO - B</option>
-                        <option value="4C">4º ANO - C</option>
-                        <option value="5A">5º ANO - A</option>
-                        <option value="5B">5º ANO - B</option>
-                        <option value="5C">5º ANO - C</option>
-                        <option value="EJA">EJA</option>
-                        <option value="MULTI-A">MULTISSERIADA (1º AO 5º ANO) - A</option>
-                        <option value="MULTI-B12">MULTISSERIADA (1º E 2º ANO) - A</option>
-                        <option value="MULTI-B34">MULTISSERIADA (3º E 4º ANO) - B</option>
-                        <option value="MULTI-B45">MULTISSERIADA (4º E 5º ANO) - B</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="1º ANO - B" disabled>
                     <hr>
                     <legend>TURNO:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="M">MANHÃ</option>
-                        <option value="T">TARDE</option>
-                        <option value="N">NOITE</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="TARDE" disabled>
                     <hr>
                     <legend>PROFESSOR:</legend>
-                    <select name="profs">
-                        <option value=""></option>
-                        <option value="P1">PROFESSOR 1</option>
-                        <option value="P2">PROFESSOR 2</option>
-                        <option value="P3">PROFESSOR 3</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="ANA CRISTINA M. KANACHIRO" disabled>
                     <hr>
                     <div class="row">
                         <div class="col-1">
                             <legend>T. FALTA:</legend>
-                            <select name="profs">
-                                <option value=""></option>
-                                <option value="P1">PROFESSOR 1</option>
-                                <option value="P2">PROFESSOR 2</option>
-                                <option value="P3">PROFESSOR 3</option>
-                            </select>
+                            <input type="text" name="ueNome" class="infos" value="FA" disabled>
                         </div>
                         <div class="col-2">
                             <legend>QTD ALUNOS:</legend>
-                            <input type="number" name="alunos" id="qtdAlunos">
+                            <input type="text" name="ueNome" id="qtdAlunos" value="24" disabled>
                         </div>
                     </div>
                     <hr>
@@ -624,84 +217,26 @@
                 <div class="card">
                     <h2>DIA 10 DE MAIO</h2>
                     <h3>QUARTA-FEIRA</h3>
-                    <legend class="ueNome">U.E.:</legend>
-                    <select class="ueSelect" name="ue">
-                        <option value=""></option>
-                        <option value="GUAVI">EMEB BAIRRO GUAVIRUVA</option>
-                        <option value="PA">EMEB BAIRRO PEDREIRA DO ARAPONGAL</option>
-                        <option value="AB">EMEB BRIG. DO AR ALBERTO BERTELLI</option>
-                        <option value="CO">EMEB CHRISTIANO DE OLIVEIRA</option>
-                        <option value="FM">EMEB FRANCISCO MANUEL</option>
-                        <option value="JP">EMEB JOÃO BATISTA POCI JÚNIOR</option>
-                        <option value="JSK">EMEB JOSÉ DA SILVA KALID</option>
-                        <option value="OG">EMEB OLERIANO GONÇALVES DE SOUZA</option>
-                        <option value="PG">EMEB PINGO DE GENTE</option>
-                        <option value="JC">EMEB PREF. JOSÉ DE CARVALHO</option>
-                        <option value="JS">EMEB PREF. JOSINO SILVEIRA</option>
-                        <option value="JM">EMEB PREF. PROFº JOSÉ MENDES</option>
-                        <option value="JK">EMEB PRES. JUSCELINO KUBITSCHEK DE OLIVEIRA</option>
-                        <option value="AP">EMEB PROFª ANNA PINTO BANKS</option>
-                        <option value="USINA">EMEB PROFª IDA EMÍLIA LEIB DAS NEVES</option>
-                        <option value="NH">EMEB PROFª NICEA HIROTA DA SILVA</option>
-                        <option value="OCR">EMEB PROFª OLGA CLIVATTI RODRIGUES</option>
-                        <option value="FS">EMEB PROFº FERNANDO SÉGIO DE CAMPOS MACHADO</option>
-                        <option value="KK">EMEB VER. KESAO KASUGA</option>
-                    </select>
+                    <legend>U.E.:</legend>
+                    <input type="text" name="ueNome" class="infos" value="EMEB PINGO DE GENTE" disabled>
                     <hr>
                     <legend>TURMA:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="1A">1º ANO - A</option>
-                        <option value="1B">1º ANO - B</option>
-                        <option value="1C">1º ANO - C</option>
-                        <option value="2A">2º ANO - A</option>
-                        <option value="2B">2º ANO - B</option>
-                        <option value="2C">2º ANO - C</option>
-                        <option value="3A">3º ANO - A</option>
-                        <option value="3B">3º ANO - B</option>
-                        <option value="3C">3º ANO - C</option>
-                        <option value="4A">4º ANO - A</option>
-                        <option value="4B">4º ANO - B</option>
-                        <option value="4C">4º ANO - C</option>
-                        <option value="5A">5º ANO - A</option>
-                        <option value="5B">5º ANO - B</option>
-                        <option value="5C">5º ANO - C</option>
-                        <option value="EJA">EJA</option>
-                        <option value="MULTI-A">MULTISSERIADA (1º AO 5º ANO) - A</option>
-                        <option value="MULTI-B12">MULTISSERIADA (1º E 2º ANO) - A</option>
-                        <option value="MULTI-B34">MULTISSERIADA (3º E 4º ANO) - B</option>
-                        <option value="MULTI-B45">MULTISSERIADA (4º E 5º ANO) - B</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="3º ANO - A" disabled>
                     <hr>
                     <legend>TURNO:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="M">MANHÃ</option>
-                        <option value="T">TARDE</option>
-                        <option value="N">NOITE</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="MANHÃ" disabled>
                     <hr>
                     <legend>PROFESSOR:</legend>
-                    <select name="profs">
-                        <option value=""></option>
-                        <option value="P1">PROFESSOR 1</option>
-                        <option value="P2">PROFESSOR 2</option>
-                        <option value="P3">PROFESSOR 3</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="TATIANA MICENE SOUSA LOBO" disabled>
                     <hr>
                     <div class="row">
                         <div class="col-1">
                             <legend>T. FALTA:</legend>
-                            <select name="profs">
-                                <option value=""></option>
-                                <option value="P1">PROFESSOR 1</option>
-                                <option value="P2">PROFESSOR 2</option>
-                                <option value="P3">PROFESSOR 3</option>
-                            </select>
+                            <input type="text" name="ueNome" class="infos" value="FA" disabled>
                         </div>
                         <div class="col-2">
                             <legend>QTD ALUNOS:</legend>
-                            <input type="number" name="alunos" id="qtdAlunos">
+                            <input type="text" name="ueNome" id="qtdAlunos" value="24" disabled>
                         </div>
                     </div>
                     <hr>
@@ -709,84 +244,26 @@
                 <div class="card">
                     <h2>DIA 11 DE MAIO</h2>
                     <h3>QUINTA-FEIRA</h3>
-                    <legend class="ueNome">U.E.:</legend>
-                    <select class="ueSelect" name="ue">
-                        <option value=""></option>
-                        <option value="GUAVI">EMEB BAIRRO GUAVIRUVA</option>
-                        <option value="PA">EMEB BAIRRO PEDREIRA DO ARAPONGAL</option>
-                        <option value="AB">EMEB BRIG. DO AR ALBERTO BERTELLI</option>
-                        <option value="CO">EMEB CHRISTIANO DE OLIVEIRA</option>
-                        <option value="FM">EMEB FRANCISCO MANUEL</option>
-                        <option value="JP">EMEB JOÃO BATISTA POCI JÚNIOR</option>
-                        <option value="JSK">EMEB JOSÉ DA SILVA KALID</option>
-                        <option value="OG">EMEB OLERIANO GONÇALVES DE SOUZA</option>
-                        <option value="PG">EMEB PINGO DE GENTE</option>
-                        <option value="JC">EMEB PREF. JOSÉ DE CARVALHO</option>
-                        <option value="JS">EMEB PREF. JOSINO SILVEIRA</option>
-                        <option value="JM">EMEB PREF. PROFº JOSÉ MENDES</option>
-                        <option value="JK">EMEB PRES. JUSCELINO KUBITSCHEK DE OLIVEIRA</option>
-                        <option value="AP">EMEB PROFª ANNA PINTO BANKS</option>
-                        <option value="USINA">EMEB PROFª IDA EMÍLIA LEIB DAS NEVES</option>
-                        <option value="NH">EMEB PROFª NICEA HIROTA DA SILVA</option>
-                        <option value="OCR">EMEB PROFª OLGA CLIVATTI RODRIGUES</option>
-                        <option value="FS">EMEB PROFº FERNANDO SÉGIO DE CAMPOS MACHADO</option>
-                        <option value="KK">EMEB VER. KESAO KASUGA</option>
-                    </select>
+                    <legend>U.E.:</legend>
+                    <input type="text" name="ueNome" class="infos" value="EMEB PINGO DE GENTE" disabled>
                     <hr>
                     <legend>TURMA:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="1A">1º ANO - A</option>
-                        <option value="1B">1º ANO - B</option>
-                        <option value="1C">1º ANO - C</option>
-                        <option value="2A">2º ANO - A</option>
-                        <option value="2B">2º ANO - B</option>
-                        <option value="2C">2º ANO - C</option>
-                        <option value="3A">3º ANO - A</option>
-                        <option value="3B">3º ANO - B</option>
-                        <option value="3C">3º ANO - C</option>
-                        <option value="4A">4º ANO - A</option>
-                        <option value="4B">4º ANO - B</option>
-                        <option value="4C">4º ANO - C</option>
-                        <option value="5A">5º ANO - A</option>
-                        <option value="5B">5º ANO - B</option>
-                        <option value="5C">5º ANO - C</option>
-                        <option value="EJA">EJA</option>
-                        <option value="MULTI-A">MULTISSERIADA (1º AO 5º ANO) - A</option>
-                        <option value="MULTI-B12">MULTISSERIADA (1º E 2º ANO) - A</option>
-                        <option value="MULTI-B34">MULTISSERIADA (3º E 4º ANO) - B</option>
-                        <option value="MULTI-B45">MULTISSERIADA (4º E 5º ANO) - B</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="2º ANO - A" disabled>
                     <hr>
                     <legend>TURNO:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="M">MANHÃ</option>
-                        <option value="T">TARDE</option>
-                        <option value="N">NOITE</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="MANHÃ" disabled>
                     <hr>
                     <legend>PROFESSOR:</legend>
-                    <select name="profs">
-                        <option value=""></option>
-                        <option value="P1">PROFESSOR 1</option>
-                        <option value="P2">PROFESSOR 2</option>
-                        <option value="P3">PROFESSOR 3</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="GIOVANY DIAS PEREIRA" disabled>
                     <hr>
                     <div class="row">
                         <div class="col-1">
                             <legend>T. FALTA:</legend>
-                            <select name="profs">
-                                <option value=""></option>
-                                <option value="P1">PROFESSOR 1</option>
-                                <option value="P2">PROFESSOR 2</option>
-                                <option value="P3">PROFESSOR 3</option>
-                            </select>
+                            <input type="text" name="ueNome" class="infos" value="AA" disabled>
                         </div>
                         <div class="col-2">
                             <legend>QTD ALUNOS:</legend>
-                            <input type="number" name="alunos" id="qtdAlunos">
+                            <input type="text" name="ueNome" id="qtdAlunos" value="22" disabled>
                         </div>
                     </div>
                     <hr>
@@ -794,84 +271,26 @@
                 <div class="card">
                     <h2>DIA 12 DE MAIO</h2>
                     <h3>SEXTA-FEIRA</h3>
-                    <legend class="ueNome">U.E.:</legend>
-                    <select class="ueSelect" name="ue">
-                        <option value=""></option>
-                        <option value="GUAVI">EMEB BAIRRO GUAVIRUVA</option>
-                        <option value="PA">EMEB BAIRRO PEDREIRA DO ARAPONGAL</option>
-                        <option value="AB">EMEB BRIG. DO AR ALBERTO BERTELLI</option>
-                        <option value="CO">EMEB CHRISTIANO DE OLIVEIRA</option>
-                        <option value="FM">EMEB FRANCISCO MANUEL</option>
-                        <option value="JP">EMEB JOÃO BATISTA POCI JÚNIOR</option>
-                        <option value="JSK">EMEB JOSÉ DA SILVA KALID</option>
-                        <option value="OG">EMEB OLERIANO GONÇALVES DE SOUZA</option>
-                        <option value="PG">EMEB PINGO DE GENTE</option>
-                        <option value="JC">EMEB PREF. JOSÉ DE CARVALHO</option>
-                        <option value="JS">EMEB PREF. JOSINO SILVEIRA</option>
-                        <option value="JM">EMEB PREF. PROFº JOSÉ MENDES</option>
-                        <option value="JK">EMEB PRES. JUSCELINO KUBITSCHEK DE OLIVEIRA</option>
-                        <option value="AP">EMEB PROFª ANNA PINTO BANKS</option>
-                        <option value="USINA">EMEB PROFª IDA EMÍLIA LEIB DAS NEVES</option>
-                        <option value="NH">EMEB PROFª NICEA HIROTA DA SILVA</option>
-                        <option value="OCR">EMEB PROFª OLGA CLIVATTI RODRIGUES</option>
-                        <option value="FS">EMEB PROFº FERNANDO SÉGIO DE CAMPOS MACHADO</option>
-                        <option value="KK">EMEB VER. KESAO KASUGA</option>
-                    </select>
+                    <legend>U.E.:</legend>
+                    <input type="text" name="ueNome" class="infos" value="EMEB PINGO DE GENTE" disabled>
                     <hr>
                     <legend>TURMA:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="1A">1º ANO - A</option>
-                        <option value="1B">1º ANO - B</option>
-                        <option value="1C">1º ANO - C</option>
-                        <option value="2A">2º ANO - A</option>
-                        <option value="2B">2º ANO - B</option>
-                        <option value="2C">2º ANO - C</option>
-                        <option value="3A">3º ANO - A</option>
-                        <option value="3B">3º ANO - B</option>
-                        <option value="3C">3º ANO - C</option>
-                        <option value="4A">4º ANO - A</option>
-                        <option value="4B">4º ANO - B</option>
-                        <option value="4C">4º ANO - C</option>
-                        <option value="5A">5º ANO - A</option>
-                        <option value="5B">5º ANO - B</option>
-                        <option value="5C">5º ANO - C</option>
-                        <option value="EJA">EJA</option>
-                        <option value="MULTI-A">MULTISSERIADA (1º AO 5º ANO) - A</option>
-                        <option value="MULTI-B12">MULTISSERIADA (1º E 2º ANO) - A</option>
-                        <option value="MULTI-B34">MULTISSERIADA (3º E 4º ANO) - B</option>
-                        <option value="MULTI-B45">MULTISSERIADA (4º E 5º ANO) - B</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="2º ANO - A" disabled>
                     <hr>
                     <legend>TURNO:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="M">MANHÃ</option>
-                        <option value="T">TARDE</option>
-                        <option value="N">NOITE</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="MANHÃ" disabled>
                     <hr>
                     <legend>PROFESSOR:</legend>
-                    <select name="profs">
-                        <option value=""></option>
-                        <option value="P1">PROFESSOR 1</option>
-                        <option value="P2">PROFESSOR 2</option>
-                        <option value="P3">PROFESSOR 3</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="GIOVANY DIAS PEREIRA" disabled>
                     <hr>
                     <div class="row">
                         <div class="col-1">
                             <legend>T. FALTA:</legend>
-                            <select name="profs">
-                                <option value=""></option>
-                                <option value="P1">PROFESSOR 1</option>
-                                <option value="P2">PROFESSOR 2</option>
-                                <option value="P3">PROFESSOR 3</option>
-                            </select>
+                            <input type="text" name="ueNome" class="infos" value="FA" disabled>
                         </div>
                         <div class="col-2">
                             <legend>QTD ALUNOS:</legend>
-                            <input type="number" name="alunos" id="qtdAlunos">
+                            <input type="text" name="ueNome" id="qtdAlunos" value="22" disabled>
                         </div>
                     </div>
                     <hr>
@@ -882,83 +301,25 @@
                     <h2>DIA 15 DE MAIO</h2>
                     <h3>SEGUNDA-FEIRA</h3>
                     <legend>U.E.:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="GUAVI">EMEB BAIRRO GUAVIRUVA</option>
-                        <option value="PA">EMEB BAIRRO PEDREIRA DO ARAPONGAL</option>
-                        <option value="AB">EMEB BRIG. DO AR ALBERTO BERTELLI</option>
-                        <option value="CO">EMEB CHRISTIANO DE OLIVEIRA</option>
-                        <option value="FM">EMEB FRANCISCO MANUEL</option>
-                        <option value="JP">EMEB JOÃO BATISTA POCI JÚNIOR</option>
-                        <option value="JSK">EMEB JOSÉ DA SILVA KALID</option>
-                        <option value="OG">EMEB OLERIANO GONÇALVES DE SOUZA</option>
-                        <option value="PG">EMEB PINGO DE GENTE</option>
-                        <option value="JC">EMEB PREF. JOSÉ DE CARVALHO</option>
-                        <option value="JS">EMEB PREF. JOSINO SILVEIRA</option>
-                        <option value="JM">EMEB PREF. PROFº JOSÉ MENDES</option>
-                        <option value="JK">EMEB PRES. JUSCELINO KUBITSCHEK DE OLIVEIRA</option>
-                        <option value="AP">EMEB PROFª ANNA PINTO BANKS</option>
-                        <option value="USINA">EMEB PROFª IDA EMÍLIA LEIB DAS NEVES</option>
-                        <option value="NH">EMEB PROFª NICEA HIROTA DA SILVA</option>
-                        <option value="OCR">EMEB PROFª OLGA CLIVATTI RODRIGUES</option>
-                        <option value="FS">EMEB PROFº FERNANDO SÉGIO DE CAMPOS MACHADO</option>
-                        <option value="KK">EMEB VER. KESAO KASUGA</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="EMEB PROFª ANNA P. BANKS" disabled>
                     <hr>
                     <legend>TURMA:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="1A">1º ANO - A</option>
-                        <option value="1B">1º ANO - B</option>
-                        <option value="1C">1º ANO - C</option>
-                        <option value="2A">2º ANO - A</option>
-                        <option value="2B">2º ANO - B</option>
-                        <option value="2C">2º ANO - C</option>
-                        <option value="3A">3º ANO - A</option>
-                        <option value="3B">3º ANO - B</option>
-                        <option value="3C">3º ANO - C</option>
-                        <option value="4A">4º ANO - A</option>
-                        <option value="4B">4º ANO - B</option>
-                        <option value="4C">4º ANO - C</option>
-                        <option value="5A">5º ANO - A</option>
-                        <option value="5B">5º ANO - B</option>
-                        <option value="5C">5º ANO - C</option>
-                        <option value="EJA">EJA</option>
-                        <option value="MULTI-A">MULTISSERIADA (1º AO 5º ANO) - A</option>
-                        <option value="MULTI-B12">MULTISSERIADA (1º E 2º ANO) - A</option>
-                        <option value="MULTI-B34">MULTISSERIADA (3º E 4º ANO) - B</option>
-                        <option value="MULTI-B45">MULTISSERIADA (4º E 5º ANO) - B</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="4º ANO - C" disabled>
                     <hr>
                     <legend>TURNO:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="M">MANHÃ</option>
-                        <option value="T">TARDE</option>
-                        <option value="N">NOITE</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="MANHÃ" disabled>
                     <hr>
                     <legend>PROFESSOR:</legend>
-                    <select name="profs">
-                        <option value=""></option>
-                        <option value="P1">PROFESSOR 1</option>
-                        <option value="P2">PROFESSOR 2</option>
-                        <option value="P3">PROFESSOR 3</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="IVANI ROSA G. DA SILVA" disabled>
                     <hr>
                     <div class="row">
                         <div class="col-1">
                             <legend>T. FALTA:</legend>
-                            <select name="profs">
-                                <option value=""></option>
-                                <option value="P1">PROFESSOR 1</option>
-                                <option value="P2">PROFESSOR 2</option>
-                                <option value="P3">PROFESSOR 3</option>
-                            </select>
+                            <input type="text" name="ueNome" class="infos" value="FA" disabled>
                         </div>
                         <div class="col-2">
                             <legend>QTD ALUNOS:</legend>
-                            <input type="number" name="alunos" id="qtdAlunos">
+                            <input type="text" name="ueNome" id="qtdAlunos" value="24" disabled>
                         </div>
                     </div>
                     <hr>
@@ -966,84 +327,26 @@
                 <div class="card">
                     <h2>DIA 16 DE MAIO</h2>
                     <h3>TERÇA-FEIRA</h3>
-                    <legend class="ueNome">U.E.:</legend>
-                    <select class="ueSelect" name="ue">
-                        <option value=""></option>
-                        <option value="GUAVI">EMEB BAIRRO GUAVIRUVA</option>
-                        <option value="PA">EMEB BAIRRO PEDREIRA DO ARAPONGAL</option>
-                        <option value="AB">EMEB BRIG. DO AR ALBERTO BERTELLI</option>
-                        <option value="CO">EMEB CHRISTIANO DE OLIVEIRA</option>
-                        <option value="FM">EMEB FRANCISCO MANUEL</option>
-                        <option value="JP">EMEB JOÃO BATISTA POCI JÚNIOR</option>
-                        <option value="JSK">EMEB JOSÉ DA SILVA KALID</option>
-                        <option value="OG">EMEB OLERIANO GONÇALVES DE SOUZA</option>
-                        <option value="PG">EMEB PINGO DE GENTE</option>
-                        <option value="JC">EMEB PREF. JOSÉ DE CARVALHO</option>
-                        <option value="JS">EMEB PREF. JOSINO SILVEIRA</option>
-                        <option value="JM">EMEB PREF. PROFº JOSÉ MENDES</option>
-                        <option value="JK">EMEB PRES. JUSCELINO KUBITSCHEK DE OLIVEIRA</option>
-                        <option value="AP">EMEB PROFª ANNA PINTO BANKS</option>
-                        <option value="USINA">EMEB PROFª IDA EMÍLIA LEIB DAS NEVES</option>
-                        <option value="NH">EMEB PROFª NICEA HIROTA DA SILVA</option>
-                        <option value="OCR">EMEB PROFª OLGA CLIVATTI RODRIGUES</option>
-                        <option value="FS">EMEB PROFº FERNANDO SÉGIO DE CAMPOS MACHADO</option>
-                        <option value="KK">EMEB VER. KESAO KASUGA</option>
-                    </select>
+                    <legend>U.E.:</legend>
+                    <input type="text" name="ueNome" class="infos" value="EMEB PROF.ª OLGA C. RODRIGUES" style="font-size: 15px;" disabled>
                     <hr>
                     <legend>TURMA:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="1A">1º ANO - A</option>
-                        <option value="1B">1º ANO - B</option>
-                        <option value="1C">1º ANO - C</option>
-                        <option value="2A">2º ANO - A</option>
-                        <option value="2B">2º ANO - B</option>
-                        <option value="2C">2º ANO - C</option>
-                        <option value="3A">3º ANO - A</option>
-                        <option value="3B">3º ANO - B</option>
-                        <option value="3C">3º ANO - C</option>
-                        <option value="4A">4º ANO - A</option>
-                        <option value="4B">4º ANO - B</option>
-                        <option value="4C">4º ANO - C</option>
-                        <option value="5A">5º ANO - A</option>
-                        <option value="5B">5º ANO - B</option>
-                        <option value="5C">5º ANO - C</option>
-                        <option value="EJA">EJA</option>
-                        <option value="MULTI-A">MULTISSERIADA (1º AO 5º ANO) - A</option>
-                        <option value="MULTI-B12">MULTISSERIADA (1º E 2º ANO) - A</option>
-                        <option value="MULTI-B34">MULTISSERIADA (3º E 4º ANO) - B</option>
-                        <option value="MULTI-B45">MULTISSERIADA (4º E 5º ANO) - B</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="4º ANO - A" disabled>
                     <hr>
                     <legend>TURNO:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="M">MANHÃ</option>
-                        <option value="T">TARDE</option>
-                        <option value="N">NOITE</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="MANHÃ" disabled>
                     <hr>
                     <legend>PROFESSOR:</legend>
-                    <select name="profs">
-                        <option value=""></option>
-                        <option value="P1">PROFESSOR 1</option>
-                        <option value="P2">PROFESSOR 2</option>
-                        <option value="P3">PROFESSOR 3</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="BRUNO LOBO MUNIZ" disabled>
                     <hr>
                     <div class="row">
                         <div class="col-1">
                             <legend>T. FALTA:</legend>
-                            <select name="profs">
-                                <option value=""></option>
-                                <option value="P1">PROFESSOR 1</option>
-                                <option value="P2">PROFESSOR 2</option>
-                                <option value="P3">PROFESSOR 3</option>
-                            </select>
+                            <input type="text" name="ueNome" class="infos" value="FA" disabled>
                         </div>
                         <div class="col-2">
                             <legend>QTD ALUNOS:</legend>
-                            <input type="number" name="alunos" id="qtdAlunos">
+                            <input type="text" name="ueNome" id="qtdAlunos" value="29" disabled>
                         </div>
                     </div>
                     <hr>
@@ -1051,84 +354,26 @@
                 <div class="card">
                     <h2>DIA 17 DE MAIO</h2>
                     <h3>QUARTA-FEIRA</h3>
-                    <legend class="ueNome">U.E.:</legend>
-                    <select class="ueSelect" name="ue">
-                        <option value=""></option>
-                        <option value="GUAVI">EMEB BAIRRO GUAVIRUVA</option>
-                        <option value="PA">EMEB BAIRRO PEDREIRA DO ARAPONGAL</option>
-                        <option value="AB">EMEB BRIG. DO AR ALBERTO BERTELLI</option>
-                        <option value="CO">EMEB CHRISTIANO DE OLIVEIRA</option>
-                        <option value="FM">EMEB FRANCISCO MANUEL</option>
-                        <option value="JP">EMEB JOÃO BATISTA POCI JÚNIOR</option>
-                        <option value="JSK">EMEB JOSÉ DA SILVA KALID</option>
-                        <option value="OG">EMEB OLERIANO GONÇALVES DE SOUZA</option>
-                        <option value="PG">EMEB PINGO DE GENTE</option>
-                        <option value="JC">EMEB PREF. JOSÉ DE CARVALHO</option>
-                        <option value="JS">EMEB PREF. JOSINO SILVEIRA</option>
-                        <option value="JM">EMEB PREF. PROFº JOSÉ MENDES</option>
-                        <option value="JK">EMEB PRES. JUSCELINO KUBITSCHEK DE OLIVEIRA</option>
-                        <option value="AP">EMEB PROFª ANNA PINTO BANKS</option>
-                        <option value="USINA">EMEB PROFª IDA EMÍLIA LEIB DAS NEVES</option>
-                        <option value="NH">EMEB PROFª NICEA HIROTA DA SILVA</option>
-                        <option value="OCR">EMEB PROFª OLGA CLIVATTI RODRIGUES</option>
-                        <option value="FS">EMEB PROFº FERNANDO SÉGIO DE CAMPOS MACHADO</option>
-                        <option value="KK">EMEB VER. KESAO KASUGA</option>
-                    </select>
+                    <legend>U.E.:</legend>
+                    <input type="text" name="ueNome" class="infos" value="EMEB PROF.ª OLGA C. RODRIGUES" style="font-size: 15px;" disabled>
                     <hr>
                     <legend>TURMA:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="1A">1º ANO - A</option>
-                        <option value="1B">1º ANO - B</option>
-                        <option value="1C">1º ANO - C</option>
-                        <option value="2A">2º ANO - A</option>
-                        <option value="2B">2º ANO - B</option>
-                        <option value="2C">2º ANO - C</option>
-                        <option value="3A">3º ANO - A</option>
-                        <option value="3B">3º ANO - B</option>
-                        <option value="3C">3º ANO - C</option>
-                        <option value="4A">4º ANO - A</option>
-                        <option value="4B">4º ANO - B</option>
-                        <option value="4C">4º ANO - C</option>
-                        <option value="5A">5º ANO - A</option>
-                        <option value="5B">5º ANO - B</option>
-                        <option value="5C">5º ANO - C</option>
-                        <option value="EJA">EJA</option>
-                        <option value="MULTI-A">MULTISSERIADA (1º AO 5º ANO) - A</option>
-                        <option value="MULTI-B12">MULTISSERIADA (1º E 2º ANO) - A</option>
-                        <option value="MULTI-B34">MULTISSERIADA (3º E 4º ANO) - B</option>
-                        <option value="MULTI-B45">MULTISSERIADA (4º E 5º ANO) - B</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="4º ANO - A" disabled>
                     <hr>
                     <legend>TURNO:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="M">MANHÃ</option>
-                        <option value="T">TARDE</option>
-                        <option value="N">NOITE</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="MANHÃ" disabled>
                     <hr>
                     <legend>PROFESSOR:</legend>
-                    <select name="profs">
-                        <option value=""></option>
-                        <option value="P1">PROFESSOR 1</option>
-                        <option value="P2">PROFESSOR 2</option>
-                        <option value="P3">PROFESSOR 3</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="BRUNO LOBO MUNIZ" disabled>
                     <hr>
                     <div class="row">
                         <div class="col-1">
                             <legend>T. FALTA:</legend>
-                            <select name="profs">
-                                <option value=""></option>
-                                <option value="P1">PROFESSOR 1</option>
-                                <option value="P2">PROFESSOR 2</option>
-                                <option value="P3">PROFESSOR 3</option>
-                            </select>
+                            <input type="text" name="ueNome" class="infos" value="FSO" disabled>
                         </div>
                         <div class="col-2">
                             <legend>QTD ALUNOS:</legend>
-                            <input type="number" name="alunos" id="qtdAlunos">
+                            <input type="text" name="ueNome" id="qtdAlunos" value="29" disabled>
                         </div>
                     </div>
                     <hr>
@@ -1136,84 +381,26 @@
                 <div class="card">
                     <h2>DIA 18 DE MAIO</h2>
                     <h3>QUINTA-FEIRA</h3>
-                    <legend class="ueNome">U.E.:</legend>
-                    <select class="ueSelect" name="ue">
-                        <option value=""></option>
-                        <option value="GUAVI">EMEB BAIRRO GUAVIRUVA</option>
-                        <option value="PA">EMEB BAIRRO PEDREIRA DO ARAPONGAL</option>
-                        <option value="AB">EMEB BRIG. DO AR ALBERTO BERTELLI</option>
-                        <option value="CO">EMEB CHRISTIANO DE OLIVEIRA</option>
-                        <option value="FM">EMEB FRANCISCO MANUEL</option>
-                        <option value="JP">EMEB JOÃO BATISTA POCI JÚNIOR</option>
-                        <option value="JSK">EMEB JOSÉ DA SILVA KALID</option>
-                        <option value="OG">EMEB OLERIANO GONÇALVES DE SOUZA</option>
-                        <option value="PG">EMEB PINGO DE GENTE</option>
-                        <option value="JC">EMEB PREF. JOSÉ DE CARVALHO</option>
-                        <option value="JS">EMEB PREF. JOSINO SILVEIRA</option>
-                        <option value="JM">EMEB PREF. PROFº JOSÉ MENDES</option>
-                        <option value="JK">EMEB PRES. JUSCELINO KUBITSCHEK DE OLIVEIRA</option>
-                        <option value="AP">EMEB PROFª ANNA PINTO BANKS</option>
-                        <option value="USINA">EMEB PROFª IDA EMÍLIA LEIB DAS NEVES</option>
-                        <option value="NH">EMEB PROFª NICEA HIROTA DA SILVA</option>
-                        <option value="OCR">EMEB PROFª OLGA CLIVATTI RODRIGUES</option>
-                        <option value="FS">EMEB PROFº FERNANDO SÉGIO DE CAMPOS MACHADO</option>
-                        <option value="KK">EMEB VER. KESAO KASUGA</option>
-                    </select>
+                    <legend>U.E.:</legend>
+                    <input type="text" name="ueNome" class="infos" value="EMEB PINGO DE GENTE" disabled>
                     <hr>
                     <legend>TURMA:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="1A">1º ANO - A</option>
-                        <option value="1B">1º ANO - B</option>
-                        <option value="1C">1º ANO - C</option>
-                        <option value="2A">2º ANO - A</option>
-                        <option value="2B">2º ANO - B</option>
-                        <option value="2C">2º ANO - C</option>
-                        <option value="3A">3º ANO - A</option>
-                        <option value="3B">3º ANO - B</option>
-                        <option value="3C">3º ANO - C</option>
-                        <option value="4A">4º ANO - A</option>
-                        <option value="4B">4º ANO - B</option>
-                        <option value="4C">4º ANO - C</option>
-                        <option value="5A">5º ANO - A</option>
-                        <option value="5B">5º ANO - B</option>
-                        <option value="5C">5º ANO - C</option>
-                        <option value="EJA">EJA</option>
-                        <option value="MULTI-A">MULTISSERIADA (1º AO 5º ANO) - A</option>
-                        <option value="MULTI-B12">MULTISSERIADA (1º E 2º ANO) - A</option>
-                        <option value="MULTI-B34">MULTISSERIADA (3º E 4º ANO) - B</option>
-                        <option value="MULTI-B45">MULTISSERIADA (4º E 5º ANO) - B</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="4º ANO - A" disabled>
                     <hr>
                     <legend>TURNO:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="M">MANHÃ</option>
-                        <option value="T">TARDE</option>
-                        <option value="N">NOITE</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="TARDE" disabled>
                     <hr>
                     <legend>PROFESSOR:</legend>
-                    <select name="profs">
-                        <option value=""></option>
-                        <option value="P1">PROFESSOR 1</option>
-                        <option value="P2">PROFESSOR 2</option>
-                        <option value="P3">PROFESSOR 3</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="BERENICE F. PEREIRA" disabled>
                     <hr>
                     <div class="row">
                         <div class="col-1">
                             <legend>T. FALTA:</legend>
-                            <select name="profs">
-                                <option value=""></option>
-                                <option value="P1">PROFESSOR 1</option>
-                                <option value="P2">PROFESSOR 2</option>
-                                <option value="P3">PROFESSOR 3</option>
-                            </select>
+                            <input type="text" name="ueNome" class="infos" value="FA" disabled>
                         </div>
                         <div class="col-2">
                             <legend>QTD ALUNOS:</legend>
-                            <input type="number" name="alunos" id="qtdAlunos">
+                            <input type="text" name="ueNome" id="qtdAlunos" value="28" disabled>
                         </div>
                     </div>
                     <hr>
@@ -1221,84 +408,26 @@
                 <div class="card">
                     <h2>DIA 19 DE MAIO</h2>
                     <h3>SEXTA-FEIRA</h3>
-                    <legend class="ueNome">U.E.:</legend>
-                    <select class="ueSelect" name="ue">
-                        <option value=""></option>
-                        <option value="GUAVI">EMEB BAIRRO GUAVIRUVA</option>
-                        <option value="PA">EMEB BAIRRO PEDREIRA DO ARAPONGAL</option>
-                        <option value="AB">EMEB BRIG. DO AR ALBERTO BERTELLI</option>
-                        <option value="CO">EMEB CHRISTIANO DE OLIVEIRA</option>
-                        <option value="FM">EMEB FRANCISCO MANUEL</option>
-                        <option value="JP">EMEB JOÃO BATISTA POCI JÚNIOR</option>
-                        <option value="JSK">EMEB JOSÉ DA SILVA KALID</option>
-                        <option value="OG">EMEB OLERIANO GONÇALVES DE SOUZA</option>
-                        <option value="PG">EMEB PINGO DE GENTE</option>
-                        <option value="JC">EMEB PREF. JOSÉ DE CARVALHO</option>
-                        <option value="JS">EMEB PREF. JOSINO SILVEIRA</option>
-                        <option value="JM">EMEB PREF. PROFº JOSÉ MENDES</option>
-                        <option value="JK">EMEB PRES. JUSCELINO KUBITSCHEK DE OLIVEIRA</option>
-                        <option value="AP">EMEB PROFª ANNA PINTO BANKS</option>
-                        <option value="USINA">EMEB PROFª IDA EMÍLIA LEIB DAS NEVES</option>
-                        <option value="NH">EMEB PROFª NICEA HIROTA DA SILVA</option>
-                        <option value="OCR">EMEB PROFª OLGA CLIVATTI RODRIGUES</option>
-                        <option value="FS">EMEB PROFº FERNANDO SÉGIO DE CAMPOS MACHADO</option>
-                        <option value="KK">EMEB VER. KESAO KASUGA</option>
-                    </select>
+                    <legend>U.E.:</legend>
+                    <input type="text" name="ueNome" class="infos" value="EMEB PINGO DE GENTE" disabled>
                     <hr>
                     <legend>TURMA:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="1A">1º ANO - A</option>
-                        <option value="1B">1º ANO - B</option>
-                        <option value="1C">1º ANO - C</option>
-                        <option value="2A">2º ANO - A</option>
-                        <option value="2B">2º ANO - B</option>
-                        <option value="2C">2º ANO - C</option>
-                        <option value="3A">3º ANO - A</option>
-                        <option value="3B">3º ANO - B</option>
-                        <option value="3C">3º ANO - C</option>
-                        <option value="4A">4º ANO - A</option>
-                        <option value="4B">4º ANO - B</option>
-                        <option value="4C">4º ANO - C</option>
-                        <option value="5A">5º ANO - A</option>
-                        <option value="5B">5º ANO - B</option>
-                        <option value="5C">5º ANO - C</option>
-                        <option value="EJA">EJA</option>
-                        <option value="MULTI-A">MULTISSERIADA (1º AO 5º ANO) - A</option>
-                        <option value="MULTI-B12">MULTISSERIADA (1º E 2º ANO) - A</option>
-                        <option value="MULTI-B34">MULTISSERIADA (3º E 4º ANO) - B</option>
-                        <option value="MULTI-B45">MULTISSERIADA (4º E 5º ANO) - B</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="4º ANO - A" disabled>
                     <hr>
                     <legend>TURNO:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="M">MANHÃ</option>
-                        <option value="T">TARDE</option>
-                        <option value="N">NOITE</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="TARDE" disabled>
                     <hr>
                     <legend>PROFESSOR:</legend>
-                    <select name="profs">
-                        <option value=""></option>
-                        <option value="P1">PROFESSOR 1</option>
-                        <option value="P2">PROFESSOR 2</option>
-                        <option value="P3">PROFESSOR 3</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="BERENICE F. PEREIRA" disabled>
                     <hr>
                     <div class="row">
                         <div class="col-1">
                             <legend>T. FALTA:</legend>
-                            <select name="profs">
-                                <option value=""></option>
-                                <option value="P1">PROFESSOR 1</option>
-                                <option value="P2">PROFESSOR 2</option>
-                                <option value="P3">PROFESSOR 3</option>
-                            </select>
+                            <input type="text" name="ueNome" class="infos" value="FSO" disabled>
                         </div>
                         <div class="col-2">
                             <legend>QTD ALUNOS:</legend>
-                            <input type="number" name="alunos" id="qtdAlunos">
+                            <input type="text" name="ueNome" id="qtdAlunos" value="28" disabled>
                         </div>
                     </div>
                     <hr>
@@ -1309,83 +438,25 @@
                     <h2>DIA 22 DE MAIO</h2>
                     <h3>SEGUNDA-FEIRA</h3>
                     <legend>U.E.:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="GUAVI">EMEB BAIRRO GUAVIRUVA</option>
-                        <option value="PA">EMEB BAIRRO PEDREIRA DO ARAPONGAL</option>
-                        <option value="AB">EMEB BRIG. DO AR ALBERTO BERTELLI</option>
-                        <option value="CO">EMEB CHRISTIANO DE OLIVEIRA</option>
-                        <option value="FM">EMEB FRANCISCO MANUEL</option>
-                        <option value="JP">EMEB JOÃO BATISTA POCI JÚNIOR</option>
-                        <option value="JSK">EMEB JOSÉ DA SILVA KALID</option>
-                        <option value="OG">EMEB OLERIANO GONÇALVES DE SOUZA</option>
-                        <option value="PG">EMEB PINGO DE GENTE</option>
-                        <option value="JC">EMEB PREF. JOSÉ DE CARVALHO</option>
-                        <option value="JS">EMEB PREF. JOSINO SILVEIRA</option>
-                        <option value="JM">EMEB PREF. PROFº JOSÉ MENDES</option>
-                        <option value="JK">EMEB PRES. JUSCELINO KUBITSCHEK DE OLIVEIRA</option>
-                        <option value="AP">EMEB PROFª ANNA PINTO BANKS</option>
-                        <option value="USINA">EMEB PROFª IDA EMÍLIA LEIB DAS NEVES</option>
-                        <option value="NH">EMEB PROFª NICEA HIROTA DA SILVA</option>
-                        <option value="OCR">EMEB PROFª OLGA CLIVATTI RODRIGUES</option>
-                        <option value="FS">EMEB PROFº FERNANDO SÉGIO DE CAMPOS MACHADO</option>
-                        <option value="KK">EMEB VER. KESAO KASUGA</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="EMEB PREF. JOSINO SILVEIRA" disabled>
                     <hr>
                     <legend>TURMA:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="1A">1º ANO - A</option>
-                        <option value="1B">1º ANO - B</option>
-                        <option value="1C">1º ANO - C</option>
-                        <option value="2A">2º ANO - A</option>
-                        <option value="2B">2º ANO - B</option>
-                        <option value="2C">2º ANO - C</option>
-                        <option value="3A">3º ANO - A</option>
-                        <option value="3B">3º ANO - B</option>
-                        <option value="3C">3º ANO - C</option>
-                        <option value="4A">4º ANO - A</option>
-                        <option value="4B">4º ANO - B</option>
-                        <option value="4C">4º ANO - C</option>
-                        <option value="5A">5º ANO - A</option>
-                        <option value="5B">5º ANO - B</option>
-                        <option value="5C">5º ANO - C</option>
-                        <option value="EJA">EJA</option>
-                        <option value="MULTI-A">MULTISSERIADA (1º AO 5º ANO) - A</option>
-                        <option value="MULTI-B12">MULTISSERIADA (1º E 2º ANO) - A</option>
-                        <option value="MULTI-B34">MULTISSERIADA (3º E 4º ANO) - B</option>
-                        <option value="MULTI-B45">MULTISSERIADA (4º E 5º ANO) - B</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="3º ANO - A" disabled>
                     <hr>
                     <legend>TURNO:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="M">MANHÃ</option>
-                        <option value="T">TARDE</option>
-                        <option value="N">NOITE</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="MANHÃ" disabled>
                     <hr>
                     <legend>PROFESSOR:</legend>
-                    <select name="profs">
-                        <option value=""></option>
-                        <option value="P1">PROFESSOR 1</option>
-                        <option value="P2">PROFESSOR 2</option>
-                        <option value="P3">PROFESSOR 3</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="WALTECÉLIA S. OLIVEIRA" disabled>
                     <hr>
                     <div class="row">
                         <div class="col-1">
                             <legend>T. FALTA:</legend>
-                            <select name="profs">
-                                <option value=""></option>
-                                <option value="P1">PROFESSOR 1</option>
-                                <option value="P2">PROFESSOR 2</option>
-                                <option value="P3">PROFESSOR 3</option>
-                            </select>
+                            <input type="text" name="ueNome" class="infos" value="FA" disabled>
                         </div>
                         <div class="col-2">
                             <legend>QTD ALUNOS:</legend>
-                            <input type="number" name="alunos" id="qtdAlunos">
+                            <input type="text" name="ueNome" id="qtdAlunos" value="27" disabled>
                         </div>
                     </div>
                     <hr>
@@ -1393,84 +464,26 @@
                 <div class="card">
                     <h2>DIA 23 DE MAIO</h2>
                     <h3>TERÇA-FEIRA</h3>
-                    <legend class="ueNome">U.E.:</legend>
-                    <select class="ueSelect" name="ue">
-                        <option value=""></option>
-                        <option value="GUAVI">EMEB BAIRRO GUAVIRUVA</option>
-                        <option value="PA">EMEB BAIRRO PEDREIRA DO ARAPONGAL</option>
-                        <option value="AB">EMEB BRIG. DO AR ALBERTO BERTELLI</option>
-                        <option value="CO">EMEB CHRISTIANO DE OLIVEIRA</option>
-                        <option value="FM">EMEB FRANCISCO MANUEL</option>
-                        <option value="JP">EMEB JOÃO BATISTA POCI JÚNIOR</option>
-                        <option value="JSK">EMEB JOSÉ DA SILVA KALID</option>
-                        <option value="OG">EMEB OLERIANO GONÇALVES DE SOUZA</option>
-                        <option value="PG">EMEB PINGO DE GENTE</option>
-                        <option value="JC">EMEB PREF. JOSÉ DE CARVALHO</option>
-                        <option value="JS">EMEB PREF. JOSINO SILVEIRA</option>
-                        <option value="JM">EMEB PREF. PROFº JOSÉ MENDES</option>
-                        <option value="JK">EMEB PRES. JUSCELINO KUBITSCHEK DE OLIVEIRA</option>
-                        <option value="AP">EMEB PROFª ANNA PINTO BANKS</option>
-                        <option value="USINA">EMEB PROFª IDA EMÍLIA LEIB DAS NEVES</option>
-                        <option value="NH">EMEB PROFª NICEA HIROTA DA SILVA</option>
-                        <option value="OCR">EMEB PROFª OLGA CLIVATTI RODRIGUES</option>
-                        <option value="FS">EMEB PROFº FERNANDO SÉGIO DE CAMPOS MACHADO</option>
-                        <option value="KK">EMEB VER. KESAO KASUGA</option>
-                    </select>
+                    <legend>U.E.:</legend>
+                    <input type="text" name="ueNome" class="infos" value="EMEB PREF. JOSINO SILVEIRA" disabled>
                     <hr>
                     <legend>TURMA:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="1A">1º ANO - A</option>
-                        <option value="1B">1º ANO - B</option>
-                        <option value="1C">1º ANO - C</option>
-                        <option value="2A">2º ANO - A</option>
-                        <option value="2B">2º ANO - B</option>
-                        <option value="2C">2º ANO - C</option>
-                        <option value="3A">3º ANO - A</option>
-                        <option value="3B">3º ANO - B</option>
-                        <option value="3C">3º ANO - C</option>
-                        <option value="4A">4º ANO - A</option>
-                        <option value="4B">4º ANO - B</option>
-                        <option value="4C">4º ANO - C</option>
-                        <option value="5A">5º ANO - A</option>
-                        <option value="5B">5º ANO - B</option>
-                        <option value="5C">5º ANO - C</option>
-                        <option value="EJA">EJA</option>
-                        <option value="MULTI-A">MULTISSERIADA (1º AO 5º ANO) - A</option>
-                        <option value="MULTI-B12">MULTISSERIADA (1º E 2º ANO) - A</option>
-                        <option value="MULTI-B34">MULTISSERIADA (3º E 4º ANO) - B</option>
-                        <option value="MULTI-B45">MULTISSERIADA (4º E 5º ANO) - B</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="2º ANO - A" disabled>
                     <hr>
                     <legend>TURNO:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="M">MANHÃ</option>
-                        <option value="T">TARDE</option>
-                        <option value="N">NOITE</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="MANHÃ" disabled>
                     <hr>
                     <legend>PROFESSOR:</legend>
-                    <select name="profs">
-                        <option value=""></option>
-                        <option value="P1">PROFESSOR 1</option>
-                        <option value="P2">PROFESSOR 2</option>
-                        <option value="P3">PROFESSOR 3</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="MARIANA SIMONI VEIGA" disabled>
                     <hr>
                     <div class="row">
                         <div class="col-1">
                             <legend>T. FALTA:</legend>
-                            <select name="profs">
-                                <option value=""></option>
-                                <option value="P1">PROFESSOR 1</option>
-                                <option value="P2">PROFESSOR 2</option>
-                                <option value="P3">PROFESSOR 3</option>
-                            </select>
+                            <input type="text" name="ueNome" class="infos" value="FA" disabled>
                         </div>
                         <div class="col-2">
                             <legend>QTD ALUNOS:</legend>
-                            <input type="number" name="alunos" id="qtdAlunos">
+                            <input type="text" name="ueNome" id="qtdAlunos" value="29" disabled>
                         </div>
                     </div>
                     <hr>
@@ -1478,84 +491,26 @@
                 <div class="card">
                     <h2>DIA 24 DE MAIO</h2>
                     <h3>QUARTA-FEIRA</h3>
-                    <legend class="ueNome">U.E.:</legend>
-                    <select class="ueSelect" name="ue">
-                        <option value=""></option>
-                        <option value="GUAVI">EMEB BAIRRO GUAVIRUVA</option>
-                        <option value="PA">EMEB BAIRRO PEDREIRA DO ARAPONGAL</option>
-                        <option value="AB">EMEB BRIG. DO AR ALBERTO BERTELLI</option>
-                        <option value="CO">EMEB CHRISTIANO DE OLIVEIRA</option>
-                        <option value="FM">EMEB FRANCISCO MANUEL</option>
-                        <option value="JP">EMEB JOÃO BATISTA POCI JÚNIOR</option>
-                        <option value="JSK">EMEB JOSÉ DA SILVA KALID</option>
-                        <option value="OG">EMEB OLERIANO GONÇALVES DE SOUZA</option>
-                        <option value="PG">EMEB PINGO DE GENTE</option>
-                        <option value="JC">EMEB PREF. JOSÉ DE CARVALHO</option>
-                        <option value="JS">EMEB PREF. JOSINO SILVEIRA</option>
-                        <option value="JM">EMEB PREF. PROFº JOSÉ MENDES</option>
-                        <option value="JK">EMEB PRES. JUSCELINO KUBITSCHEK DE OLIVEIRA</option>
-                        <option value="AP">EMEB PROFª ANNA PINTO BANKS</option>
-                        <option value="USINA">EMEB PROFª IDA EMÍLIA LEIB DAS NEVES</option>
-                        <option value="NH">EMEB PROFª NICEA HIROTA DA SILVA</option>
-                        <option value="OCR">EMEB PROFª OLGA CLIVATTI RODRIGUES</option>
-                        <option value="FS">EMEB PROFº FERNANDO SÉGIO DE CAMPOS MACHADO</option>
-                        <option value="KK">EMEB VER. KESAO KASUGA</option>
-                    </select>
+                    <legend>U.E.:</legend>
+                    <input type="text" name="ueNome" class="infos" value="EMEB PROF.ª ANNA P. BANKS" disabled>
                     <hr>
                     <legend>TURMA:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="1A">1º ANO - A</option>
-                        <option value="1B">1º ANO - B</option>
-                        <option value="1C">1º ANO - C</option>
-                        <option value="2A">2º ANO - A</option>
-                        <option value="2B">2º ANO - B</option>
-                        <option value="2C">2º ANO - C</option>
-                        <option value="3A">3º ANO - A</option>
-                        <option value="3B">3º ANO - B</option>
-                        <option value="3C">3º ANO - C</option>
-                        <option value="4A">4º ANO - A</option>
-                        <option value="4B">4º ANO - B</option>
-                        <option value="4C">4º ANO - C</option>
-                        <option value="5A">5º ANO - A</option>
-                        <option value="5B">5º ANO - B</option>
-                        <option value="5C">5º ANO - C</option>
-                        <option value="EJA">EJA</option>
-                        <option value="MULTI-A">MULTISSERIADA (1º AO 5º ANO) - A</option>
-                        <option value="MULTI-B12">MULTISSERIADA (1º E 2º ANO) - A</option>
-                        <option value="MULTI-B34">MULTISSERIADA (3º E 4º ANO) - B</option>
-                        <option value="MULTI-B45">MULTISSERIADA (4º E 5º ANO) - B</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="2º ANO - C" disabled>
                     <hr>
                     <legend>TURNO:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="M">MANHÃ</option>
-                        <option value="T">TARDE</option>
-                        <option value="N">NOITE</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="TARDE" disabled>
                     <hr>
                     <legend>PROFESSOR:</legend>
-                    <select name="profs">
-                        <option value=""></option>
-                        <option value="P1">PROFESSOR 1</option>
-                        <option value="P2">PROFESSOR 2</option>
-                        <option value="P3">PROFESSOR 3</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="MAIARA HELEN DE OLIVEIRA" disabled>
                     <hr>
                     <div class="row">
                         <div class="col-1">
                             <legend>T. FALTA:</legend>
-                            <select name="profs">
-                                <option value=""></option>
-                                <option value="P1">PROFESSOR 1</option>
-                                <option value="P2">PROFESSOR 2</option>
-                                <option value="P3">PROFESSOR 3</option>
-                            </select>
+                            <input type="text" name="ueNome" class="infos" value="FSO" disabled>
                         </div>
                         <div class="col-2">
                             <legend>QTD ALUNOS:</legend>
-                            <input type="number" name="alunos" id="qtdAlunos">
+                            <input type="text" name="ueNome" id="qtdAlunos" value="26" disabled>
                         </div>
                     </div>
                     <hr>
@@ -1563,84 +518,26 @@
                 <div class="card">
                     <h2>DIA 25 DE MAIO</h2>
                     <h3>QUINTA-FEIRA</h3>
-                    <legend class="ueNome">U.E.:</legend>
-                    <select class="ueSelect" name="ue">
-                        <option value=""></option>
-                        <option value="GUAVI">EMEB BAIRRO GUAVIRUVA</option>
-                        <option value="PA">EMEB BAIRRO PEDREIRA DO ARAPONGAL</option>
-                        <option value="AB">EMEB BRIG. DO AR ALBERTO BERTELLI</option>
-                        <option value="CO">EMEB CHRISTIANO DE OLIVEIRA</option>
-                        <option value="FM">EMEB FRANCISCO MANUEL</option>
-                        <option value="JP">EMEB JOÃO BATISTA POCI JÚNIOR</option>
-                        <option value="JSK">EMEB JOSÉ DA SILVA KALID</option>
-                        <option value="OG">EMEB OLERIANO GONÇALVES DE SOUZA</option>
-                        <option value="PG">EMEB PINGO DE GENTE</option>
-                        <option value="JC">EMEB PREF. JOSÉ DE CARVALHO</option>
-                        <option value="JS">EMEB PREF. JOSINO SILVEIRA</option>
-                        <option value="JM">EMEB PREF. PROFº JOSÉ MENDES</option>
-                        <option value="JK">EMEB PRES. JUSCELINO KUBITSCHEK DE OLIVEIRA</option>
-                        <option value="AP">EMEB PROFª ANNA PINTO BANKS</option>
-                        <option value="USINA">EMEB PROFª IDA EMÍLIA LEIB DAS NEVES</option>
-                        <option value="NH">EMEB PROFª NICEA HIROTA DA SILVA</option>
-                        <option value="OCR">EMEB PROFª OLGA CLIVATTI RODRIGUES</option>
-                        <option value="FS">EMEB PROFº FERNANDO SÉGIO DE CAMPOS MACHADO</option>
-                        <option value="KK">EMEB VER. KESAO KASUGA</option>
-                    </select>
+                    <legend>U.E.:</legend>
+                    <input type="text" name="ueNome" class="infos" value="EMEB BRIG. DO AR ALBERTO BERTELLI" style="font-size: 13px;" disabled>
                     <hr>
                     <legend>TURMA:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="1A">1º ANO - A</option>
-                        <option value="1B">1º ANO - B</option>
-                        <option value="1C">1º ANO - C</option>
-                        <option value="2A">2º ANO - A</option>
-                        <option value="2B">2º ANO - B</option>
-                        <option value="2C">2º ANO - C</option>
-                        <option value="3A">3º ANO - A</option>
-                        <option value="3B">3º ANO - B</option>
-                        <option value="3C">3º ANO - C</option>
-                        <option value="4A">4º ANO - A</option>
-                        <option value="4B">4º ANO - B</option>
-                        <option value="4C">4º ANO - C</option>
-                        <option value="5A">5º ANO - A</option>
-                        <option value="5B">5º ANO - B</option>
-                        <option value="5C">5º ANO - C</option>
-                        <option value="EJA">EJA</option>
-                        <option value="MULTI-A">MULTISSERIADA (1º AO 5º ANO) - A</option>
-                        <option value="MULTI-B12">MULTISSERIADA (1º E 2º ANO) - A</option>
-                        <option value="MULTI-B34">MULTISSERIADA (3º E 4º ANO) - B</option>
-                        <option value="MULTI-B45">MULTISSERIADA (4º E 5º ANO) - B</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="3º ANO - A" disabled>
                     <hr>
                     <legend>TURNO:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="M">MANHÃ</option>
-                        <option value="T">TARDE</option>
-                        <option value="N">NOITE</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="TARDE" disabled>
                     <hr>
                     <legend>PROFESSOR:</legend>
-                    <select name="profs">
-                        <option value=""></option>
-                        <option value="P1">PROFESSOR 1</option>
-                        <option value="P2">PROFESSOR 2</option>
-                        <option value="P3">PROFESSOR 3</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="MAYARA SHIOKAWA DIAS" disabled>
                     <hr>
                     <div class="row">
                         <div class="col-1">
                             <legend>T. FALTA:</legend>
-                            <select name="profs">
-                                <option value=""></option>
-                                <option value="P1">PROFESSOR 1</option>
-                                <option value="P2">PROFESSOR 2</option>
-                                <option value="P3">PROFESSOR 3</option>
-                            </select>
+                            <input type="text" name="ueNome" class="infos" value="LS" disabled>
                         </div>
                         <div class="col-2">
                             <legend>QTD ALUNOS:</legend>
-                            <input type="number" name="alunos" id="qtdAlunos">
+                            <input type="text" name="ueNome" id="qtdAlunos" value="31" disabled>
                         </div>
                     </div>
                     <hr>
@@ -1648,84 +545,26 @@
                 <div class="card">
                     <h2>DIA 26 DE MAIO</h2>
                     <h3>SEXTA-FEIRA</h3>
-                    <legend class="ueNome">U.E.:</legend>
-                    <select class="ueSelect" name="ue">
-                        <option value=""></option>
-                        <option value="GUAVI">EMEB BAIRRO GUAVIRUVA</option>
-                        <option value="PA">EMEB BAIRRO PEDREIRA DO ARAPONGAL</option>
-                        <option value="AB">EMEB BRIG. DO AR ALBERTO BERTELLI</option>
-                        <option value="CO">EMEB CHRISTIANO DE OLIVEIRA</option>
-                        <option value="FM">EMEB FRANCISCO MANUEL</option>
-                        <option value="JP">EMEB JOÃO BATISTA POCI JÚNIOR</option>
-                        <option value="JSK">EMEB JOSÉ DA SILVA KALID</option>
-                        <option value="OG">EMEB OLERIANO GONÇALVES DE SOUZA</option>
-                        <option value="PG">EMEB PINGO DE GENTE</option>
-                        <option value="JC">EMEB PREF. JOSÉ DE CARVALHO</option>
-                        <option value="JS">EMEB PREF. JOSINO SILVEIRA</option>
-                        <option value="JM">EMEB PREF. PROFº JOSÉ MENDES</option>
-                        <option value="JK">EMEB PRES. JUSCELINO KUBITSCHEK DE OLIVEIRA</option>
-                        <option value="AP">EMEB PROFª ANNA PINTO BANKS</option>
-                        <option value="USINA">EMEB PROFª IDA EMÍLIA LEIB DAS NEVES</option>
-                        <option value="NH">EMEB PROFª NICEA HIROTA DA SILVA</option>
-                        <option value="OCR">EMEB PROFª OLGA CLIVATTI RODRIGUES</option>
-                        <option value="FS">EMEB PROFº FERNANDO SÉGIO DE CAMPOS MACHADO</option>
-                        <option value="KK">EMEB VER. KESAO KASUGA</option>
-                    </select>
+                    <legend>U.E.:</legend>
+                    <input type="text" name="ueNome" class="infos" value="EMEB BAIRRO GUAVIRUVA" disabled>
                     <hr>
                     <legend>TURMA:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="1A">1º ANO - A</option>
-                        <option value="1B">1º ANO - B</option>
-                        <option value="1C">1º ANO - C</option>
-                        <option value="2A">2º ANO - A</option>
-                        <option value="2B">2º ANO - B</option>
-                        <option value="2C">2º ANO - C</option>
-                        <option value="3A">3º ANO - A</option>
-                        <option value="3B">3º ANO - B</option>
-                        <option value="3C">3º ANO - C</option>
-                        <option value="4A">4º ANO - A</option>
-                        <option value="4B">4º ANO - B</option>
-                        <option value="4C">4º ANO - C</option>
-                        <option value="5A">5º ANO - A</option>
-                        <option value="5B">5º ANO - B</option>
-                        <option value="5C">5º ANO - C</option>
-                        <option value="EJA">EJA</option>
-                        <option value="MULTI-A">MULTISSERIADA (1º AO 5º ANO) - A</option>
-                        <option value="MULTI-B12">MULTISSERIADA (1º E 2º ANO) - A</option>
-                        <option value="MULTI-B34">MULTISSERIADA (3º E 4º ANO) - B</option>
-                        <option value="MULTI-B45">MULTISSERIADA (4º E 5º ANO) - B</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="MULTI (1º - 2º ANO)" disabled>
                     <hr>
                     <legend>TURNO:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="M">MANHÃ</option>
-                        <option value="T">TARDE</option>
-                        <option value="N">NOITE</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="TARDE" disabled>
                     <hr>
                     <legend>PROFESSOR:</legend>
-                    <select name="profs">
-                        <option value=""></option>
-                        <option value="P1">PROFESSOR 1</option>
-                        <option value="P2">PROFESSOR 2</option>
-                        <option value="P3">PROFESSOR 3</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="VANIA TRIGO MONTEIRO" disabled>
                     <hr>
                     <div class="row">
                         <div class="col-1">
                             <legend>T. FALTA:</legend>
-                            <select name="profs">
-                                <option value=""></option>
-                                <option value="P1">PROFESSOR 1</option>
-                                <option value="P2">PROFESSOR 2</option>
-                                <option value="P3">PROFESSOR 3</option>
-                            </select>
+                            <input type="text" name="ueNome" class="infos" value="FA" disabled>
                         </div>
                         <div class="col-2">
                             <legend>QTD ALUNOS:</legend>
-                            <input type="number" name="alunos" id="qtdAlunos">
+                            <input type="text" name="ueNome" id="qtdAlunos" value="26" disabled>
                         </div>
                     </div>
                     <hr>
@@ -1736,83 +575,25 @@
                     <h2>DIA 29 DE MAIO</h2>
                     <h3>SEGUNDA-FEIRA</h3>
                     <legend>U.E.:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="GUAVI">EMEB BAIRRO GUAVIRUVA</option>
-                        <option value="PA">EMEB BAIRRO PEDREIRA DO ARAPONGAL</option>
-                        <option value="AB">EMEB BRIG. DO AR ALBERTO BERTELLI</option>
-                        <option value="CO">EMEB CHRISTIANO DE OLIVEIRA</option>
-                        <option value="FM">EMEB FRANCISCO MANUEL</option>
-                        <option value="JP">EMEB JOÃO BATISTA POCI JÚNIOR</option>
-                        <option value="JSK">EMEB JOSÉ DA SILVA KALID</option>
-                        <option value="OG">EMEB OLERIANO GONÇALVES DE SOUZA</option>
-                        <option value="PG">EMEB PINGO DE GENTE</option>
-                        <option value="JC">EMEB PREF. JOSÉ DE CARVALHO</option>
-                        <option value="JS">EMEB PREF. JOSINO SILVEIRA</option>
-                        <option value="JM">EMEB PREF. PROFº JOSÉ MENDES</option>
-                        <option value="JK">EMEB PRES. JUSCELINO KUBITSCHEK DE OLIVEIRA</option>
-                        <option value="AP">EMEB PROFª ANNA PINTO BANKS</option>
-                        <option value="USINA">EMEB PROFª IDA EMÍLIA LEIB DAS NEVES</option>
-                        <option value="NH">EMEB PROFª NICEA HIROTA DA SILVA</option>
-                        <option value="OCR">EMEB PROFª OLGA CLIVATTI RODRIGUES</option>
-                        <option value="FS">EMEB PROFº FERNANDO SÉGIO DE CAMPOS MACHADO</option>
-                        <option value="KK">EMEB VER. KESAO KASUGA</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <legend>TURMA:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="1A">1º ANO - A</option>
-                        <option value="1B">1º ANO - B</option>
-                        <option value="1C">1º ANO - C</option>
-                        <option value="2A">2º ANO - A</option>
-                        <option value="2B">2º ANO - B</option>
-                        <option value="2C">2º ANO - C</option>
-                        <option value="3A">3º ANO - A</option>
-                        <option value="3B">3º ANO - B</option>
-                        <option value="3C">3º ANO - C</option>
-                        <option value="4A">4º ANO - A</option>
-                        <option value="4B">4º ANO - B</option>
-                        <option value="4C">4º ANO - C</option>
-                        <option value="5A">5º ANO - A</option>
-                        <option value="5B">5º ANO - B</option>
-                        <option value="5C">5º ANO - C</option>
-                        <option value="EJA">EJA</option>
-                        <option value="MULTI-A">MULTISSERIADA (1º AO 5º ANO) - A</option>
-                        <option value="MULTI-B12">MULTISSERIADA (1º E 2º ANO) - A</option>
-                        <option value="MULTI-B34">MULTISSERIADA (3º E 4º ANO) - B</option>
-                        <option value="MULTI-B45">MULTISSERIADA (4º E 5º ANO) - B</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <legend>TURNO:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="M">MANHÃ</option>
-                        <option value="T">TARDE</option>
-                        <option value="N">NOITE</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <legend>PROFESSOR:</legend>
-                    <select name="profs">
-                        <option value=""></option>
-                        <option value="P1">PROFESSOR 1</option>
-                        <option value="P2">PROFESSOR 2</option>
-                        <option value="P3">PROFESSOR 3</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <div class="row">
                         <div class="col-1">
                             <legend>T. FALTA:</legend>
-                            <select name="profs">
-                                <option value=""></option>
-                                <option value="P1">PROFESSOR 1</option>
-                                <option value="P2">PROFESSOR 2</option>
-                                <option value="P3">PROFESSOR 3</option>
-                            </select>
+                            <input type="text" name="ueNome" class="infos" value="" disabled>
                         </div>
                         <div class="col-2">
                             <legend>QTD ALUNOS:</legend>
-                            <input type="number" name="alunos" id="qtdAlunos">
+                            <input type="text" name="ueNome" id="qtdAlunos" value="" disabled>
                         </div>
                     </div>
                     <hr>
@@ -1820,84 +601,26 @@
                 <div class="card">
                     <h2>DIA 30 DE MAIO</h2>
                     <h3>TERÇA-FEIRA</h3>
-                    <legend class="ueNome">U.E.:</legend>
-                    <select class="ueSelect" name="ue">
-                        <option value=""></option>
-                        <option value="GUAVI">EMEB BAIRRO GUAVIRUVA</option>
-                        <option value="PA">EMEB BAIRRO PEDREIRA DO ARAPONGAL</option>
-                        <option value="AB">EMEB BRIG. DO AR ALBERTO BERTELLI</option>
-                        <option value="CO">EMEB CHRISTIANO DE OLIVEIRA</option>
-                        <option value="FM">EMEB FRANCISCO MANUEL</option>
-                        <option value="JP">EMEB JOÃO BATISTA POCI JÚNIOR</option>
-                        <option value="JSK">EMEB JOSÉ DA SILVA KALID</option>
-                        <option value="OG">EMEB OLERIANO GONÇALVES DE SOUZA</option>
-                        <option value="PG">EMEB PINGO DE GENTE</option>
-                        <option value="JC">EMEB PREF. JOSÉ DE CARVALHO</option>
-                        <option value="JS">EMEB PREF. JOSINO SILVEIRA</option>
-                        <option value="JM">EMEB PREF. PROFº JOSÉ MENDES</option>
-                        <option value="JK">EMEB PRES. JUSCELINO KUBITSCHEK DE OLIVEIRA</option>
-                        <option value="AP">EMEB PROFª ANNA PINTO BANKS</option>
-                        <option value="USINA">EMEB PROFª IDA EMÍLIA LEIB DAS NEVES</option>
-                        <option value="NH">EMEB PROFª NICEA HIROTA DA SILVA</option>
-                        <option value="OCR">EMEB PROFª OLGA CLIVATTI RODRIGUES</option>
-                        <option value="FS">EMEB PROFº FERNANDO SÉGIO DE CAMPOS MACHADO</option>
-                        <option value="KK">EMEB VER. KESAO KASUGA</option>
-                    </select>
+                    <legend>U.E.:</legend>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <legend>TURMA:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="1A">1º ANO - A</option>
-                        <option value="1B">1º ANO - B</option>
-                        <option value="1C">1º ANO - C</option>
-                        <option value="2A">2º ANO - A</option>
-                        <option value="2B">2º ANO - B</option>
-                        <option value="2C">2º ANO - C</option>
-                        <option value="3A">3º ANO - A</option>
-                        <option value="3B">3º ANO - B</option>
-                        <option value="3C">3º ANO - C</option>
-                        <option value="4A">4º ANO - A</option>
-                        <option value="4B">4º ANO - B</option>
-                        <option value="4C">4º ANO - C</option>
-                        <option value="5A">5º ANO - A</option>
-                        <option value="5B">5º ANO - B</option>
-                        <option value="5C">5º ANO - C</option>
-                        <option value="EJA">EJA</option>
-                        <option value="MULTI-A">MULTISSERIADA (1º AO 5º ANO) - A</option>
-                        <option value="MULTI-B12">MULTISSERIADA (1º E 2º ANO) - A</option>
-                        <option value="MULTI-B34">MULTISSERIADA (3º E 4º ANO) - B</option>
-                        <option value="MULTI-B45">MULTISSERIADA (4º E 5º ANO) - B</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <legend>TURNO:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="M">MANHÃ</option>
-                        <option value="T">TARDE</option>
-                        <option value="N">NOITE</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <legend>PROFESSOR:</legend>
-                    <select name="profs">
-                        <option value=""></option>
-                        <option value="P1">PROFESSOR 1</option>
-                        <option value="P2">PROFESSOR 2</option>
-                        <option value="P3">PROFESSOR 3</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <div class="row">
                         <div class="col-1">
                             <legend>T. FALTA:</legend>
-                            <select name="profs">
-                                <option value=""></option>
-                                <option value="P1">PROFESSOR 1</option>
-                                <option value="P2">PROFESSOR 2</option>
-                                <option value="P3">PROFESSOR 3</option>
-                            </select>
+                            <input type="text" name="ueNome" class="infos" value="" disabled>
                         </div>
                         <div class="col-2">
                             <legend>QTD ALUNOS:</legend>
-                            <input type="number" name="alunos" id="qtdAlunos">
+                            <input type="text" name="ueNome" id="qtdAlunos" value="" disabled>
                         </div>
                     </div>
                     <hr>
@@ -1905,84 +628,26 @@
                 <div class="card">
                     <h2>DIA 31 DE MAIO</h2>
                     <h3>QUARTA-FEIRA</h3>
-                    <legend class="ueNome">U.E.:</legend>
-                    <select class="ueSelect" name="ue">
-                        <option value=""></option>
-                        <option value="GUAVI">EMEB BAIRRO GUAVIRUVA</option>
-                        <option value="PA">EMEB BAIRRO PEDREIRA DO ARAPONGAL</option>
-                        <option value="AB">EMEB BRIG. DO AR ALBERTO BERTELLI</option>
-                        <option value="CO">EMEB CHRISTIANO DE OLIVEIRA</option>
-                        <option value="FM">EMEB FRANCISCO MANUEL</option>
-                        <option value="JP">EMEB JOÃO BATISTA POCI JÚNIOR</option>
-                        <option value="JSK">EMEB JOSÉ DA SILVA KALID</option>
-                        <option value="OG">EMEB OLERIANO GONÇALVES DE SOUZA</option>
-                        <option value="PG">EMEB PINGO DE GENTE</option>
-                        <option value="JC">EMEB PREF. JOSÉ DE CARVALHO</option>
-                        <option value="JS">EMEB PREF. JOSINO SILVEIRA</option>
-                        <option value="JM">EMEB PREF. PROFº JOSÉ MENDES</option>
-                        <option value="JK">EMEB PRES. JUSCELINO KUBITSCHEK DE OLIVEIRA</option>
-                        <option value="AP">EMEB PROFª ANNA PINTO BANKS</option>
-                        <option value="USINA">EMEB PROFª IDA EMÍLIA LEIB DAS NEVES</option>
-                        <option value="NH">EMEB PROFª NICEA HIROTA DA SILVA</option>
-                        <option value="OCR">EMEB PROFª OLGA CLIVATTI RODRIGUES</option>
-                        <option value="FS">EMEB PROFº FERNANDO SÉGIO DE CAMPOS MACHADO</option>
-                        <option value="KK">EMEB VER. KESAO KASUGA</option>
-                    </select>
+                    <legend>U.E.:</legend>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <legend>TURMA:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="1A">1º ANO - A</option>
-                        <option value="1B">1º ANO - B</option>
-                        <option value="1C">1º ANO - C</option>
-                        <option value="2A">2º ANO - A</option>
-                        <option value="2B">2º ANO - B</option>
-                        <option value="2C">2º ANO - C</option>
-                        <option value="3A">3º ANO - A</option>
-                        <option value="3B">3º ANO - B</option>
-                        <option value="3C">3º ANO - C</option>
-                        <option value="4A">4º ANO - A</option>
-                        <option value="4B">4º ANO - B</option>
-                        <option value="4C">4º ANO - C</option>
-                        <option value="5A">5º ANO - A</option>
-                        <option value="5B">5º ANO - B</option>
-                        <option value="5C">5º ANO - C</option>
-                        <option value="EJA">EJA</option>
-                        <option value="MULTI-A">MULTISSERIADA (1º AO 5º ANO) - A</option>
-                        <option value="MULTI-B12">MULTISSERIADA (1º E 2º ANO) - A</option>
-                        <option value="MULTI-B34">MULTISSERIADA (3º E 4º ANO) - B</option>
-                        <option value="MULTI-B45">MULTISSERIADA (4º E 5º ANO) - B</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <legend>TURNO:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="M">MANHÃ</option>
-                        <option value="T">TARDE</option>
-                        <option value="N">NOITE</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <legend>PROFESSOR:</legend>
-                    <select name="profs">
-                        <option value=""></option>
-                        <option value="P1">PROFESSOR 1</option>
-                        <option value="P2">PROFESSOR 2</option>
-                        <option value="P3">PROFESSOR 3</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <div class="row">
                         <div class="col-1">
                             <legend>T. FALTA:</legend>
-                            <select name="profs">
-                                <option value=""></option>
-                                <option value="P1">PROFESSOR 1</option>
-                                <option value="P2">PROFESSOR 2</option>
-                                <option value="P3">PROFESSOR 3</option>
-                            </select>
+                            <input type="text" name="ueNome" class="infos" value="" disabled>
                         </div>
                         <div class="col-2">
                             <legend>QTD ALUNOS:</legend>
-                            <input type="number" name="alunos" id="qtdAlunos">
+                            <input type="text" name="ueNome" id="qtdAlunos" value="" disabled>
                         </div>
                     </div>
                     <hr>
@@ -1990,84 +655,26 @@
                 <div class="card">
                     <h2>DIA 01 DE JUNHO</h2>
                     <h3>QUINTA-FEIRA</h3>
-                    <legend class="ueNome">U.E.:</legend>
-                    <select class="ueSelect" name="ue">
-                        <option value=""></option>
-                        <option value="GUAVI">EMEB BAIRRO GUAVIRUVA</option>
-                        <option value="PA">EMEB BAIRRO PEDREIRA DO ARAPONGAL</option>
-                        <option value="AB">EMEB BRIG. DO AR ALBERTO BERTELLI</option>
-                        <option value="CO">EMEB CHRISTIANO DE OLIVEIRA</option>
-                        <option value="FM">EMEB FRANCISCO MANUEL</option>
-                        <option value="JP">EMEB JOÃO BATISTA POCI JÚNIOR</option>
-                        <option value="JSK">EMEB JOSÉ DA SILVA KALID</option>
-                        <option value="OG">EMEB OLERIANO GONÇALVES DE SOUZA</option>
-                        <option value="PG">EMEB PINGO DE GENTE</option>
-                        <option value="JC">EMEB PREF. JOSÉ DE CARVALHO</option>
-                        <option value="JS">EMEB PREF. JOSINO SILVEIRA</option>
-                        <option value="JM">EMEB PREF. PROFº JOSÉ MENDES</option>
-                        <option value="JK">EMEB PRES. JUSCELINO KUBITSCHEK DE OLIVEIRA</option>
-                        <option value="AP">EMEB PROFª ANNA PINTO BANKS</option>
-                        <option value="USINA">EMEB PROFª IDA EMÍLIA LEIB DAS NEVES</option>
-                        <option value="NH">EMEB PROFª NICEA HIROTA DA SILVA</option>
-                        <option value="OCR">EMEB PROFª OLGA CLIVATTI RODRIGUES</option>
-                        <option value="FS">EMEB PROFº FERNANDO SÉGIO DE CAMPOS MACHADO</option>
-                        <option value="KK">EMEB VER. KESAO KASUGA</option>
-                    </select>
+                    <legend>U.E.:</legend>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <legend>TURMA:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="1A">1º ANO - A</option>
-                        <option value="1B">1º ANO - B</option>
-                        <option value="1C">1º ANO - C</option>
-                        <option value="2A">2º ANO - A</option>
-                        <option value="2B">2º ANO - B</option>
-                        <option value="2C">2º ANO - C</option>
-                        <option value="3A">3º ANO - A</option>
-                        <option value="3B">3º ANO - B</option>
-                        <option value="3C">3º ANO - C</option>
-                        <option value="4A">4º ANO - A</option>
-                        <option value="4B">4º ANO - B</option>
-                        <option value="4C">4º ANO - C</option>
-                        <option value="5A">5º ANO - A</option>
-                        <option value="5B">5º ANO - B</option>
-                        <option value="5C">5º ANO - C</option>
-                        <option value="EJA">EJA</option>
-                        <option value="MULTI-A">MULTISSERIADA (1º AO 5º ANO) - A</option>
-                        <option value="MULTI-B12">MULTISSERIADA (1º E 2º ANO) - A</option>
-                        <option value="MULTI-B34">MULTISSERIADA (3º E 4º ANO) - B</option>
-                        <option value="MULTI-B45">MULTISSERIADA (4º E 5º ANO) - B</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <legend>TURNO:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="M">MANHÃ</option>
-                        <option value="T">TARDE</option>
-                        <option value="N">NOITE</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <legend>PROFESSOR:</legend>
-                    <select name="profs">
-                        <option value=""></option>
-                        <option value="P1">PROFESSOR 1</option>
-                        <option value="P2">PROFESSOR 2</option>
-                        <option value="P3">PROFESSOR 3</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <div class="row">
                         <div class="col-1">
                             <legend>T. FALTA:</legend>
-                            <select name="profs">
-                                <option value=""></option>
-                                <option value="P1">PROFESSOR 1</option>
-                                <option value="P2">PROFESSOR 2</option>
-                                <option value="P3">PROFESSOR 3</option>
-                            </select>
+                            <input type="text" name="ueNome" class="infos" value="" disabled>
                         </div>
                         <div class="col-2">
                             <legend>QTD ALUNOS:</legend>
-                            <input type="number" name="alunos" id="qtdAlunos">
+                            <input type="text" name="ueNome" id="qtdAlunos" value="" disabled>
                         </div>
                     </div>
                     <hr>
@@ -2075,89 +682,31 @@
                 <div class="card">
                     <h2>DIA 02 DE JUNHO</h2>
                     <h3>SEXTA-FEIRA</h3>
-                    <legend class="ueNome">U.E.:</legend>
-                    <select class="ueSelect" name="ue">
-                        <option value=""></option>
-                        <option value="GUAVI">EMEB BAIRRO GUAVIRUVA</option>
-                        <option value="PA">EMEB BAIRRO PEDREIRA DO ARAPONGAL</option>
-                        <option value="AB">EMEB BRIG. DO AR ALBERTO BERTELLI</option>
-                        <option value="CO">EMEB CHRISTIANO DE OLIVEIRA</option>
-                        <option value="FM">EMEB FRANCISCO MANUEL</option>
-                        <option value="JP">EMEB JOÃO BATISTA POCI JÚNIOR</option>
-                        <option value="JSK">EMEB JOSÉ DA SILVA KALID</option>
-                        <option value="OG">EMEB OLERIANO GONÇALVES DE SOUZA</option>
-                        <option value="PG">EMEB PINGO DE GENTE</option>
-                        <option value="JC">EMEB PREF. JOSÉ DE CARVALHO</option>
-                        <option value="JS">EMEB PREF. JOSINO SILVEIRA</option>
-                        <option value="JM">EMEB PREF. PROFº JOSÉ MENDES</option>
-                        <option value="JK">EMEB PRES. JUSCELINO KUBITSCHEK DE OLIVEIRA</option>
-                        <option value="AP">EMEB PROFª ANNA PINTO BANKS</option>
-                        <option value="USINA">EMEB PROFª IDA EMÍLIA LEIB DAS NEVES</option>
-                        <option value="NH">EMEB PROFª NICEA HIROTA DA SILVA</option>
-                        <option value="OCR">EMEB PROFª OLGA CLIVATTI RODRIGUES</option>
-                        <option value="FS">EMEB PROFº FERNANDO SÉGIO DE CAMPOS MACHADO</option>
-                        <option value="KK">EMEB VER. KESAO KASUGA</option>
-                    </select>
+                    <legend>U.E.:</legend>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <legend>TURMA:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="1A">1º ANO - A</option>
-                        <option value="1B">1º ANO - B</option>
-                        <option value="1C">1º ANO - C</option>
-                        <option value="2A">2º ANO - A</option>
-                        <option value="2B">2º ANO - B</option>
-                        <option value="2C">2º ANO - C</option>
-                        <option value="3A">3º ANO - A</option>
-                        <option value="3B">3º ANO - B</option>
-                        <option value="3C">3º ANO - C</option>
-                        <option value="4A">4º ANO - A</option>
-                        <option value="4B">4º ANO - B</option>
-                        <option value="4C">4º ANO - C</option>
-                        <option value="5A">5º ANO - A</option>
-                        <option value="5B">5º ANO - B</option>
-                        <option value="5C">5º ANO - C</option>
-                        <option value="EJA">EJA</option>
-                        <option value="MULTI-A">MULTISSERIADA (1º AO 5º ANO) - A</option>
-                        <option value="MULTI-B12">MULTISSERIADA (1º E 2º ANO) - A</option>
-                        <option value="MULTI-B34">MULTISSERIADA (3º E 4º ANO) - B</option>
-                        <option value="MULTI-B45">MULTISSERIADA (4º E 5º ANO) - B</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <legend>TURNO:</legend>
-                    <select name="ue">
-                        <option value=""></option>
-                        <option value="M">MANHÃ</option>
-                        <option value="T">TARDE</option>
-                        <option value="N">NOITE</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <legend>PROFESSOR:</legend>
-                    <select name="profs">
-                        <option value=""></option>
-                        <option value="P1">PROFESSOR 1</option>
-                        <option value="P2">PROFESSOR 2</option>
-                        <option value="P3">PROFESSOR 3</option>
-                    </select>
+                    <input type="text" name="ueNome" class="infos" value="" disabled>
                     <hr>
                     <div class="row">
                         <div class="col-1">
                             <legend>T. FALTA:</legend>
-                            <select name="profs">
-                                <option value=""></option>
-                                <option value="P1">PROFESSOR 1</option>
-                                <option value="P2">PROFESSOR 2</option>
-                                <option value="P3">PROFESSOR 3</option>
-                            </select>
+                            <input type="text" name="ueNome" class="infos" value="" disabled>
                         </div>
                         <div class="col-2">
                             <legend>QTD ALUNOS:</legend>
-                            <input type="number" name="alunos" id="qtdAlunos">
+                            <input type="text" name="ueNome" id="qtdAlunos" value="" disabled>
                         </div>
                     </div>
                     <hr>
                 </div>
             </section>
-            <script src="_assets/_js/script.js"></script>
+            <script src="_assets/_js/script.js" type="text/javascript"></script>
         </body>
     </html>

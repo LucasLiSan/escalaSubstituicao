@@ -75,7 +75,8 @@ nav {
 
 .icon-ok {
     margin: 0;
-    right: 3px;
+    top: 1px;
+    right: 4px;
     position: relative;
     font-size: 22px;
 }
@@ -119,6 +120,7 @@ nav span:nth-child(4) {
     justify-content: center;
     height: 25px;
     border-radius: 20px;
+    text-decoration: none;
 }
 
 .btn:hover {
@@ -165,7 +167,7 @@ h3 {
     margin-top: 0;
 }
 
-select, option, #qtdAlunos {
+select, option, #qtdAlunos, .infos {
     margin: 10px;
     width: 90%;
     height: 30px;
@@ -173,7 +175,7 @@ select, option, #qtdAlunos {
     border: none;
 }
 
-select, #qtdAlunos {
+select, #qtdAlunos, .infos {
     background-color: transparent;
 }
 
@@ -186,7 +188,7 @@ hr {
     width: 80%;
 }
 
-select:hover, #qtdAlunos:hover {
+select:hover, #qtdAlunos:hover, .infos:hover {
     background-color: #BB2649;
 }
 
@@ -206,6 +208,13 @@ select:hover, #qtdAlunos:hover {
 
 #qtdAlunos {
     width: 60%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.infos {
     text-align: center;
     color: #ffffff;
     font-weight: bolder;
