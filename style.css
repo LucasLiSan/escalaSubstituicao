@@ -7,7 +7,7 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background: #BB2649;
+    background: linear-gradient(180deg, #BB2649 30%, #871B34 85%);
     font-family: 'Gill Sans MT', sans-serif;
 }
 
@@ -143,12 +143,20 @@ section {
     justify-content: center;
 }
 
+section:nth-child(odd) {
+    background: linear-gradient(180deg, #871B34 30%, #BB2649 85%);
+}
+
 .card {
     width: 300px;
     height: 600px;
     margin: 10px;
     border-radius: 40px;
-    background: #ba97386c;
+    background: rgba(186, 151, 56, 0.424);
+}
+
+.card:nth-child(odd) {
+    background-color: #3855ba6c;
 }
 
 h2, h3, legend,

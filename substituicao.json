@@ -1,0 +1,20 @@
+{
+    "escala" : [
+        {
+            "ue" : "EMEB PINGO DE GENTE",
+            "turma" : "2º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "GIOVANY",
+            "falta" : "FA",
+            "qtdAluno" : 20
+        },
+        {
+            "ue" : "EMEB PINGO DE GENTE",
+            "turma" : "3º ANO - A",
+            "turno" : "TARDE",
+            "professor" : "TATIANA",
+            "falta" : "FA",
+            "qtdAluno" : 30
+        }
+    ]
+}
