@@ -1,7 +1,16 @@
 {
     "escala" : [
         {
-            "dia" : "01/02/2024",
+            "dia" : "01/01/2024",
+            "ue" : "FÉRIAS",
+            "turma" : "FÉRIAS",
+            "turno" : "FÉRIAS",
+            "professor" : "FÉRIAS",
+            "falta" : "FÉRIAS",
+            "qtdAluno" : "FÉRIAS"
+        },
+        {
+            "dia" : "23/02/2024",
             "ue" : "EMEB PINGO DE GENTE",
             "turma" : "2º ANO - A",
             "turno" : "MANHÃ",
@@ -10,7 +19,7 @@
             "qtdAluno" : 20
         },
         {
-            "dia" : "02/02/2024",
+            "dia" : "24/02/2024",
             "ue" : "EMEB PINGO DE GENTE",
             "turma" : "3º ANO - A",
             "turno" : "TARDE",
