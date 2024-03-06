@@ -1,28 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Fetching JSON data from external file
-    fetch('substituicao.json')
-        .then(response => response.json())
-        .then(data => {
-            // Selecting the inputs
-            var ueNomeInput = document.querySelector('input[name="ueNome"]');
-            var turmaInput = document.querySelector('input[name="turma"]');
-            var turnoInput = document.querySelector('input[name="turno"]');
-            var profInput = document.querySelector('input[name="prof"]');
-            var tFaltaInput = document.querySelector('input[name="tFalta"]');
-            var qtdAInput = document.querySelector('input[name="qtdA"]');
-
-            // Filling the inputs with JSON data
-            ueNomeInput.value = data.escala[0].ue;
-            turmaInput.value = data.escala[0].turma;
-            turnoInput.value = data.escala[0].turno;
-            profInput.value = data.escala[0].professor;
-            tFaltaInput.value = data.escala[0].falta;
-            qtdAInput.value = data.escala[0].qtdAluno;
-        })
-        .catch(error => console.error('Error fetching JSON:', error));
-});
-
-document.addEventListener('DOMContentLoaded', function() {
     // Function to pad single digit numbers with leading zero
     function pad(number) {
         return (number < 10 ? '0' : '') + number;
@@ -30,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Get the current date
     var currentDate = new Date();
-    
+
     // Select the container where sections will be appended
     var container = document.getElementById('container');
     // If container is not found, append sections to the body
@@ -49,13 +25,13 @@ document.addEventListener('DOMContentLoaded', function() {
             // Create a new date object for each day of the week
             var day = new Date(currentDate);
             day.setDate(currentDate.getDate() + (i + (weekNumber - 1) * 7));
-            
+
             // Get the day, month, and year
             var dayNumber = pad(day.getDate());
             var monthNames = ["JANEIRO", "FEVEREIRO", "MARÇO", "ABRIL", "MAIO", "JUNHO", "JULHO", "AGOSTO", "SETEMBRO", "OUTUBRO", "NOVEMBRO", "DEZEMBRO"];
             var monthName = monthNames[day.getMonth()];
             var year = day.getFullYear();
-            
+
             // Get the weekday name
             var weekdays = ["DOMINGO", "SEGUNDA-FEIRA", "TERÇA-FEIRA", "QUARTA-FEIRA", "QUINTA-FEIRA", "SEXTA-FEIRA", "SÁBADO"];
             var weekdayName = weekdays[day.getDay()];
@@ -90,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <hr>
                 </div>
             `;
-            
+
             // Append the card HTML to the week section
             weekSection.innerHTML += cardHTML;
         }
@@ -98,4 +74,27 @@ document.addEventListener('DOMContentLoaded', function() {
         // Append the week section to the container
         container.appendChild(weekSection);
     }
+
+    // Fetch JSON data from external file
+    fetch('_assets/_js/substituicao.json')
+        .then(response => response.json())
+        .then(data => {
+            // Fill inputs with JSON information based on key "dia"
+            data.escala.forEach(entry => {
+                var dayKey = entry.dia;
+                var cards = document.querySelectorAll('.card');
+                cards.forEach(card => {
+                    var h2 = card.querySelector('h2');
+                    if (h2.textContent.includes(dayKey)) {
+                        card.querySelector('input[name="ueNome"]').value = entry.ue;
+                        card.querySelector('input[name="turma"]').value = entry.turma;
+                        card.querySelector('input[name="turno"]').value = entry.turno;
+                        card.querySelector('input[name="prof"]').value = entry.professor;
+                        card.querySelector('input[name="tFalta"]').value = entry.falta;
+                        card.querySelector('#qtdAlunos').value = entry.qtdAluno;
+                    }
+                });
+            });
+        })
+        .catch(error => console.error('Error fetching data:', error));
 });

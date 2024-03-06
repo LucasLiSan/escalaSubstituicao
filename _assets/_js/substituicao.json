@@ -1,0 +1,67 @@
+{
+    "escala" : [
+        {
+            "dia" : "DIA 07 DE MARÇO DE 2024",
+            "ue" : "EMEB PROF.ª NICEA HIROTA",
+            "turma" : "5º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MICHELE",
+            "falta" : "A.A.",
+            "qtdAluno" : 26
+        },
+        {
+            "dia" : "DIA 08 DE MARÇO DE 2024",
+            "ue" : "EMEB PROF.ª NICEA HIROTA",
+            "turma" : "3º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "ALESSANDRA",
+            "falta" : "FA",
+            "qtdAluno" : 17
+        },
+        {
+            "dia" : "DIA 11 DE MARÇO DE 2024",
+            "ue" : "EMEB PREF. JOSÉ DE CARVALHO",
+            "turma" : "4º ANO - B",
+            "turno" : "TARDE",
+            "professor" : "BERENICE",
+            "falta" : "FA",
+            "qtdAluno" : 16
+        },
+        {
+            "dia" : "DIA 13 DE MARÇO DE 2024",
+            "ue" : "EMEB PREF. JOSÉ DE CARVALHO",
+            "turma" : "5º ANO - B",
+            "turno" : "TARDE",
+            "professor" : "ANA PAULA",
+            "falta" : "AA",
+            "qtdAluno" : 19
+        },
+        {
+            "dia" : "DIA 14 DE MARÇO DE 2024",
+            "ue" : "EMEB PINGO DE GENTE",
+            "turma" : "2º ANO - B",
+            "turno" : "TARDE",
+            "professor" : "RENATA",
+            "falta" : "FA",
+            "qtdAluno" : 19
+        },
+        {
+            "dia" : "DIA 21 DE MARÇO DE 2024",
+            "ue" : "EMEB PINGO DE GENTE",
+            "turma" : "1º ANO - B",
+            "turno" : "TARDE",
+            "professor" : "ANA PAULA",
+            "falta" : "AA",
+            "qtdAluno" : 20
+        },
+        {
+            "dia" : "DIA 22 DE MARÇO DE 2024",
+            "ue" : "EMEB PINGO DE GENTE",
+            "turma" : "1º ANO - B",
+            "turno" : "TARDE",
+            "professor" : "ANA PAULA",
+            "falta" : "FA",
+            "qtdAluno" : 20
+        }
+    ]
+}
