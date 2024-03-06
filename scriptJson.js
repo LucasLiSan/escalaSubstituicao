@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Fetch JSON data from external file
-    fetch('_assets/_js/substituicao.json')
+    fetch('substituicao.json')
         .then(response => response.json())
         .then(data => {
             // Fill inputs with JSON information based on key "dia"
