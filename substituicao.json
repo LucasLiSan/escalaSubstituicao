@@ -19,15 +19,6 @@
             "qtdAluno" : 17
         },
         {
-            "dia" : "DIA 11 DE MARÇO DE 2024",
-            "ue" : "EMEB PREF. JOSÉ DE CARVALHO",
-            "turma" : "4º ANO - B",
-            "turno" : "TARDE",
-            "professor" : "BERENICE",
-            "falta" : "FA",
-            "qtdAluno" : 16
-        },
-        {
             "dia" : "DIA 12 DE MARÇO DE 2024",
             "ue" : "EMEB PROF. FERNANDO SÉRGIO",
             "turma" : "2º ANO - A",
@@ -55,6 +46,15 @@
             "qtdAluno" : 19
         },
         {
+            "dia" : "DIA 15 DE MARÇO DE 2024",
+            "ue" : "EMEB PEDREIRA DO ARAPONGAL",
+            "turma" : "5º ANO - B",
+            "turno" : "TARDE",
+            "professor" : "REGIANE",
+            "falta" : "AA",
+            "qtdAluno" : 26
+        },
+        {
             "dia" : "DIA 21 DE MARÇO DE 2024",
             "ue" : "EMEB PINGO DE GENTE",
             "turma" : "1º ANO - B",
@@ -71,6 +71,564 @@
             "professor" : "ANA PAULA",
             "falta" : "FA",
             "qtdAluno" : 20
+        },
+        {
+            "dia" : "DIA 08 DE ABRIL DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 09 DE ABRIL DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 10 DE ABRIL DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 11 DE ABRIL DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 12 DE ABRIL DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 15 DE ABRIL DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 16 DE ABRIL DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 17 DE ABRIL DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 18 DE ABRIL DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 19 DE ABRIL DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 22 DE ABRIL DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 23 DE ABRIL DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 24 DE ABRIL DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 25 DE ABRIL DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 26 DE ABRIL DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 29 DE ABRIL DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 30 DE ABRIL DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 02 DE MAIO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 03 DE MAIO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 06 DE MAIO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 07 DE MAIO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 08 DE MAIO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 09 DE MAIO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 10 DE MAIO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 13 DE MAIO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 14 DE MAIO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 15 DE MAIO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 16 DE MAIO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 17 DE MAIO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 20 DE MAIO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 21 DE MAIO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 22 DE MAIO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 23 DE MAIO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 24 DE MAIO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 27 DE MAIO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 28 DE MAIO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 29 DE MAIO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 03 DE JUNHO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 04 DE JUNHO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 05 DE JUNHO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 06 DE JUNHO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 07 DE JUNHO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 10 DE JUNHO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 11 DE JUNHO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 12 DE JUNHO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 13 DE JUNHO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 14 DE JUNHO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 17 DE JUNHO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 18 DE JUNHO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 19 DE JUNHO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 20 DE JUNHO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 21 DE JUNHO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 24 DE JUNHO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 25 DE JUNHO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 26 DE JUNHO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 27 DE JUNHO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 28 DE JUNHO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 01 DE JULHO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 02 DE JULHO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 03 DE JULHO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 04 DE JULHO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 05 DE JULHO DE 2024",
+            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MATILDES",
+            "falta" : "LP",
+            "qtdAluno" : 14
         }
     ]
 }
