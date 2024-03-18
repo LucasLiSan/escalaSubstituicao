@@ -53,6 +53,14 @@
             "professor" : "REGIANE",
             "falta" : "AA",
             "qtdAluno" : 26
+        },{
+            "dia" : "DIA 19 DE MARÇO DE 2024",
+            "ue" : "EMEB JOAO POCI JUNIOR",
+            "turma" : "5º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "MARCILENE",
+            "falta" : "FA",
+            "qtdAluno" : 20
         },
         {
             "dia" : "DIA 20 DE MARÇO DE 2024",
