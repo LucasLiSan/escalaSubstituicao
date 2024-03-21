@@ -81,6 +81,15 @@
             "qtdAluno" : 20
         },
         {
+            "dia" : "DIA 26 DE MARÇO DE 2024",
+            "ue" : "EMEB JOSINO SILVEIRA",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "ROSEMEIRE",
+            "falta" : "FA",
+            "qtdAluno" : 15
+        },
+        {
             "dia" : "DIA 22 DE MARÇO DE 2024",
             "ue" : "EMEB PINGO DE GENTE",
             "turma" : "1º ANO - B",
