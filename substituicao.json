@@ -126,6 +126,15 @@
             "qtdAluno" : ""
         },
         {
+            "dia" : "DIA 01 DE ABRIL DE 2024",
+            "ue" : "EMEB PIGNO DE GENTE",
+            "turma" : "4º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "TATIANA",
+            "falta" : "FA",
+            "qtdAluno" : 22
+        },
+        {
             "dia" : "DIA 08 DE ABRIL DE 2024",
             "ue" : "EMEB PROF. FERNANDO SÉRGIO",
             "turma" : "1º ANO - A",
