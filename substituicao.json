@@ -108,6 +108,15 @@
             "qtdAluno" : 15
         },
         {
+            "dia" : "DIA 27 DE MARÇO DE 2024",
+            "ue" : "EMEB JOÃO POCI",
+            "turma" : "5º ANO - B",
+            "turno" : "TARDE",
+            "professor" : "SONIA",
+            "falta" : "LS",
+            "qtdAluno" : 19
+        },
+        {
             "dia" : "DIA 29 DE MARÇO DE 2024",
             "ue" : "FERIADO",
             "turma" : "",
