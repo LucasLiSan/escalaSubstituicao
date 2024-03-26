@@ -117,6 +117,15 @@
             "qtdAluno" : 19
         },
         {
+            "dia" : "DIA 29 DE MARÇO DE 2024",
+            "ue" : "FERIADO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
             "dia" : "DIA 08 DE ABRIL DE 2024",
             "ue" : "EMEB PROF. FERNANDO SÉRGIO",
             "turma" : "1º ANO - A",

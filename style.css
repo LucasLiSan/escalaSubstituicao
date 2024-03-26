@@ -192,7 +192,7 @@ h3 {
     margin-top: 0;
 }
 
-select, option, #qtdAlunos, .infos {
+select, option, .qtdAlunos, .infos {
     margin: 10px;
     width: 90%;
     height: 30px;
@@ -200,7 +200,7 @@ select, option, #qtdAlunos, .infos {
     border: none;
 }
 
-select, #qtdAlunos, .infos {
+select, .qtdAlunos, .infos {
     background-color: transparent;
 }
 
@@ -213,7 +213,7 @@ hr {
     width: 80%;
 }
 
-select:hover, #qtdAlunos:hover, .infos:hover {
+select:hover, .qtdAlunos:hover, .infos:hover {
     background-color: #BB2649;
 }
 
@@ -231,7 +231,7 @@ select:hover, #qtdAlunos:hover, .infos:hover {
     justify-content: center;
 }
 
-#qtdAlunos {
+.qtdAlunos {
     width: 60%;
     text-align: center;
     color: #ffffff;

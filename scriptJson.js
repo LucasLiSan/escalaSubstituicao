@@ -45,16 +45,16 @@ document.addEventListener('DOMContentLoaded', function() {
                         <h3>${weekdayName}</h3>
                         <legend>U.E.:</legend>
                         <input type="text" name="ueNome" class="infos" value="" disabled>
-                        <hr>
+                        <hr class="divisoria">
                         <legend>TURMA:</legend>
                         <input type="text" name="turma" class="infos" value="" disabled>
-                        <hr>
+                        <hr class="divisoria">
                         <legend>TURNO:</legend>
                         <input type="text" name="turno" class="infos" value="" disabled>
-                        <hr>
+                        <hr class="divisoria">
                         <legend>PROFESSOR:</legend>
                         <input type="text" name="prof" class="infos" value="" disabled>
-                        <hr>
+                        <hr class="divisoria">
                         <div class="row">
                             <div class="col-1">
                                 <legend>T. FALTA:</legend>
@@ -62,10 +62,10 @@ document.addEventListener('DOMContentLoaded', function() {
                             </div>
                             <div class="col-2">
                                 <legend>QTD ALUNOS:</legend>
-                                <input type="text" name="qtdA" id="qtdAlunos" value="" disabled>
+                                <input type="text" name="qtdA" class="qtdAlunos" value="" disabled>
                             </div>
                         </div>
-                        <hr>
+                        <hr class="divisoria">
                     </div>
                 `;
 
@@ -94,7 +94,22 @@ document.addEventListener('DOMContentLoaded', function() {
                         card.querySelector('input[name="turno"]').value = entry.turno;
                         card.querySelector('input[name="prof"]').value = entry.professor;
                         card.querySelector('input[name="tFalta"]').value = entry.falta;
-                        card.querySelector('#qtdAlunos').value = entry.qtdAluno;
+                        card.querySelector('input[name="qtdA"]').value = entry.qtdAluno;
+
+                        if (entry.ue === "FERIADO" || entry.ue === "CONSELHO DE CLASSE"
+                            || entry.ue === "PONTO FACULTATIVO" || entry.ue === "NÃO LETIVO"
+                            || entry.ue === "RECESSO" || entry.ue === "FÉRIAS" || entry.ue === "PROFESSOR ABONANDO") {
+                            card.style.backgroundColor = "#000000";
+                            card.querySelector('input[name="ueNome"]').style.color = "#ffffff";
+                            var legends = card.querySelectorAll('legend');
+                            var divisoria = card.querySelectorAll('.divisoria');
+                            legends.forEach(function(legend){
+                                legend.style.color = "#000000";
+                            });
+                            divisoria.forEach(function(divisor){
+                                divisor.style.border = "#000000";
+                            });
+                        }
                     }
                 });
             });
