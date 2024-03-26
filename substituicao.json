@@ -108,6 +108,15 @@
             "qtdAluno" : 15
         },
         {
+            "dia" : "DIA 28 DE MARÇO DE 2024",
+            "ue" : "EMEB JOAO POCI JUNIOR",
+            "turma" : "4º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "RICARDO",
+            "falta" : "FA",
+            "qtdAluno" : 19
+        },
+        {
             "dia" : "DIA 08 DE ABRIL DE 2024",
             "ue" : "EMEB PROF. FERNANDO SÉRGIO",
             "turma" : "1º ANO - A",
