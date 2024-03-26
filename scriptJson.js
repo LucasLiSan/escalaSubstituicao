@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                         if (entry.ue === "FERIADO" || entry.ue === "CONSELHO DE CLASSE"
                             || entry.ue === "PONTO FACULTATIVO" || entry.ue === "NÃO LETIVO"
-                            || entry.ue === "RECESSO" || entry.ue === "FÉRIAS" || entry.ue === "PROFESSOR ABONANDO") {
+                            || entry.ue === "RECESSO" || entry.ue === "FÉRIAS" || entry.ue === "PROFESSOR ABONANDO" || entry.ue === "PLANEJAMENTO") {
                             card.style.backgroundColor = "#000000";
                             card.querySelector('input[name="ueNome"]').style.color = "#ffffff";
                             var legends = card.querySelectorAll('legend');

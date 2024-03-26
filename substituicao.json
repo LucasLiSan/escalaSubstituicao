@@ -217,12 +217,12 @@
         },
         {
             "dia" : "DIA 22 DE ABRIL DE 2024",
-            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
-            "turma" : "1º ANO - A",
-            "turno" : "MANHÃ",
-            "professor" : "MATILDES",
-            "falta" : "LP",
-            "qtdAluno" : 14
+            "ue" : "CONSELHO DE CLASSE",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
         },
         {
             "dia" : "DIA 23 DE ABRIL DE 2024",
@@ -277,6 +277,15 @@
             "professor" : "MATILDES",
             "falta" : "LP",
             "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 01 DE MAIO DE 2024",
+            "ue" : "FERIADO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
         },
         {
             "dia" : "DIA 02 DE MAIO DE 2024",
@@ -457,6 +466,24 @@
             "professor" : "MATILDES",
             "falta" : "LP",
             "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 30 DE MAIO DE 2024",
+            "ue" : "FERIADO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 31 DE MAIO DE 2024",
+            "ue" : "PONTO FACULTATIVO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
         },
         {
             "dia" : "DIA 03 DE JUNHO DE 2024",
@@ -640,12 +667,12 @@
         },
         {
             "dia" : "DIA 01 DE JULHO DE 2024",
-            "ue" : "EMEB PROF. FERNANDO SÉRGIO",
-            "turma" : "1º ANO - A",
-            "turno" : "MANHÃ",
-            "professor" : "MATILDES",
-            "falta" : "LP",
-            "qtdAluno" : 14
+            "ue" : "CONSELHO DE CLASSE",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
         },
         {
             "dia" : "DIA 02 DE JULHO DE 2024",
@@ -682,6 +709,267 @@
             "professor" : "MATILDES",
             "falta" : "LP",
             "qtdAluno" : 14
+        },
+        {
+            "dia" : "DIA 08 DE JULHO DE 2024",
+            "ue" : "PONTO FACULTATIVO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 09 DE JULHO DE 2024",
+            "ue" : "FERIADO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 10 DE JULHO DE 2024",
+            "ue" : "RECESSO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 11 DE JULHO DE 2024",
+            "ue" : "RECESSO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 12 DE JULHO DE 2024",
+            "ue" : "RECESSO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 15 DE JULHO DE 2024",
+            "ue" : "RECESSO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 16 DE JULHO DE 2024",
+            "ue" : "RECESSO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 17 DE JULHO DE 2024",
+            "ue" : "RECESSO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 18 DE JULHO DE 2024",
+            "ue" : "RECESSO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 19 DE JULHO DE 2024",
+            "ue" : "RECESSO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 22 DE JULHO DE 2024",
+            "ue" : "RECESSO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 23 DE JULHO DE 2024",
+            "ue" : "RECESSO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 24 DE JULHO DE 2024",
+            "ue" : "RECESSO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 25 DE JULHO DE 2024",
+            "ue" : "PLANEJAMENTO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 23 DE SETEMBRO DE 2024",
+            "ue" : "CONSELHO DE CLASSE",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 04 DE OUTUBRO DE 2024",
+            "ue" : "NÃO LETIVO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 28 DE OUTUBRO DE 2024",
+            "ue" : "PONTO FACULTATIVO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 15 DE NOVEMBRO DE 2024",
+            "ue" : "FERIADO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 20 DE NOVEMBRO DE 2024",
+            "ue" : "FERIADO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 02 DE DEZEMBRO DE 2024",
+            "ue" : "PONTO FACULTATIVO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 03 DE DEZEMBRO DE 2024",
+            "ue" : "FERIADO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 13 DE DEZEMBRO DE 2024",
+            "ue" : "CONSELHO DE CLASSE",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 23 DE DEZEMBRO DE 2024",
+            "ue" : "RECESSO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 24 DE DEZEMBRO DE 2024",
+            "ue" : "RECESSO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 25 DE DEZEMBRO DE 2024",
+            "ue" : "FERIADO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 26 DE DEZEMBRO DE 2024",
+            "ue" : "RECESSO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 27 DE DEZEMBRO DE 2024",
+            "ue" : "RECESSO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 30 DE DEZEMBRO DE 2024",
+            "ue" : "RECESSO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
+        },
+        {
+            "dia" : "DIA 31 DE DEZEMBRO DE 2024",
+            "ue" : "FERIADO",
+            "turma" : "",
+            "turno" : "",
+            "professor" : "",
+            "falta" : "",
+            "qtdAluno" : ""
         }
     ]
 }
