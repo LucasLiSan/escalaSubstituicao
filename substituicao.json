@@ -1,6 +1,42 @@
 {
     "escala" : [
         {
+            "dia" : "DIA 01 DE MARÇO DE 2024",
+            "ue" : "EMEB ALBERTO BERTELLI",
+            "turma" : "4º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "FERNANDA",
+            "falta" : "F.A.",
+            "qtdAluno" : 26
+        },
+        {
+            "dia" : "DIA 04 DE MARÇO DE 2024",
+            "ue" : "EMEB JOSINO SILVEIRA",
+            "turma" : "3º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "LUCIANA",
+            "falta" : "F.A.",
+            "qtdAluno" : 30
+        },
+        {
+            "dia" : "DIA 05 DE MARÇO DE 2024",
+            "ue" : "EMEB PROF.ª NICEA HIROTA",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "RENATA",
+            "falta" : "F.A.",
+            "qtdAluno" : 23
+        },
+        {
+            "dia" : "DIA 06 DE MARÇO DE 2024",
+            "ue" : "EMEB ALBERTO BERTELLI",
+            "turma" : "1º ANO - A",
+            "turno" : "MANHÃ",
+            "professor" : "REGIANE",
+            "falta" : "F.A.",
+            "qtdAluno" : 26
+        },
+        {
             "dia" : "DIA 07 DE MARÇO DE 2024",
             "ue" : "EMEB PROF.ª NICEA HIROTA",
             "turma" : "5º ANO - A",
