@@ -180,6 +180,24 @@
             "qtdAluno" : 19
         },
         {
+            "dia" : "DIA 03 DE ABRIL DE 2024",
+            "ue" : "EMEB PROF. ANA PINTO",
+            "turma" : "2º ANO - A",
+            "turno" : "TARDE",
+            "professor" : "CLAUDICELIA",
+            "falta" : "FA",
+            "qtdAluno" : 25
+        },
+        {
+            "dia" : "DIA 04 DE ABRIL DE 2024",
+            "ue" : "EMEB PINGO DE GENTE",
+            "turma" : "JARDIM 2-B",
+            "turno" : "TARDE",
+            "professor" : "DENISE",
+            "falta" : "FA",
+            "qtdAluno" : 23
+        },
+        {
             "dia" : "DIA 05 DE ABRIL DE 2024",
             "ue" : "EMEB PROF. FERNANDO SÉRGIO",
             "turma" : "1º ANO - A",
